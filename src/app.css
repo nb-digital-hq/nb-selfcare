@@ -1,0 +1,487 @@
+/* Sistema visual de autocuidado. Tokens compartidos con la suite; contrato en docs/design/ui-conventions.md. */
+
+@import 'm3-svelte/etc/styles.css';
+@import './paletas.css';
+
+:root {
+  color-scheme: light dark;
+
+  --sc-font-ui: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --sc-font-mono: ui-monospace, 'Cascadia Mono', 'Fira Mono', Consolas, monospace;
+
+  /* Escala tipográfica (rem sobre 16 px) */
+  --sc-texto-xs: 0.75rem;
+  --sc-texto-sm: 0.8125rem;
+  --sc-texto-md: 0.9375rem;
+  --sc-texto-lg: 1.125rem;
+  --sc-texto-xl: 1.5rem;
+  --sc-texto-2xl: 2rem;
+  /* Los títulos de las cabeceras de álbum, artista y playlist, y el saludo. */
+  --sc-texto-3xl: 2.75rem;
+  --sc-texto-4xl: 3.75rem;
+
+  /* Espacio, en una escala de 4 */
+  --sc-espacio-1: 0.25rem;
+  --sc-espacio-2: 0.5rem;
+  --sc-espacio-3: 0.75rem;
+  --sc-espacio-4: 1rem;
+  --sc-espacio-5: 1.5rem;
+  --sc-espacio-6: 2rem;
+  --sc-espacio-7: 3rem;
+
+  /* Radios de Material 3 */
+  --sc-radio-sm: 0.5rem;
+  --sc-radio-md: 0.75rem;
+  --sc-radio-lg: 1rem;
+  --sc-radio-xl: 1.75rem;
+  --sc-radio-pleno: 999px;
+
+  /*
+   * Movimiento. Las transiciones son cortas y solo responden a algo que hizo
+   * quien usa la aplicación: nada se anima en reposo (regla heredada de NB Books,
+   * donde un fondo animado costó diez fotogramas largos de cada noventa).
+   */
+  --sc-duracion-corta: 120ms;
+  --sc-duracion-media: 220ms;
+  --sc-curva: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Carcasa */
+  --sc-ancho-lateral: 15rem;
+  --sc-ancho-riel: 5rem;
+  --sc-alto-superior: 4rem;
+
+  /*
+   * El QR del emparejamiento es la única excepción a "ningún color literal": los
+   * lectores de QR esperan módulos oscuros sobre fondo claro, sea cual sea el
+   * tema. Con un tema oscuro, invertido, muchos no lo leen.
+   */
+  --sc-qr-tinta: #000000;
+  --sc-qr-fondo: #ffffff;
+}
+
+:root[data-movimiento='reducido'] {
+  --sc-duracion-corta: 0ms;
+  --sc-duracion-media: 0ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --sc-duracion-corta: 0ms;
+    --sc-duracion-media: 0ms;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--sc-font-ui);
+  font-size: var(--sc-texto-md);
+  line-height: 1.45;
+  color: var(--m3c-on-surface);
+  background: var(--m3c-surface);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+/*
+ * Barras de desplazamiento propias. Las nativas de WebKitGTK son de superposición:
+ * se dibujan por encima de todo, también de los cajones, los menús y la cola, y
+ * la de la vista de debajo seguía viéndose unos segundos encima de lo que se
+ * abría. Las que dibuja la página respetan el orden de las capas.
+ */
+::-webkit-scrollbar {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 0.1875rem solid transparent;
+  border-radius: var(--sc-radio-pleno);
+  background: color-mix(in srgb, var(--m3c-on-surface) 22%, transparent);
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: color-mix(in srgb, var(--m3c-on-surface) 38%, transparent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--m3c-primary);
+  outline-offset: 2px;
+}
+
+.sc-solo-lectores {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Controles y composiciones compartidos por los ocho destinos de autocuidado. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+h1 {
+  margin: 0 0 var(--sc-espacio-2);
+  font-size: var(--sc-texto-xl);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  font-weight: 650;
+}
+h2 {
+  margin: 0 0 var(--sc-espacio-4);
+  font-size: var(--sc-texto-lg);
+  font-weight: 650;
+  letter-spacing: -0.015em;
+}
+h3 {
+  font-size: var(--sc-texto-md);
+  margin: var(--sc-espacio-4) 0;
+}
+.subtitulo {
+  color: var(--m3c-on-surface-variant);
+  margin: 0 0 var(--sc-espacio-6);
+  line-height: 1.55;
+}
+.panel {
+  background: var(--m3c-surface-container);
+  /* Como en Sound y Books: una línea tenue separa la tarjeta del lienzo en todos los temas. */
+  border: 1px solid color-mix(in srgb, var(--m3c-outline-variant) 55%, transparent);
+  border-radius: var(--sc-radio-lg);
+  padding: var(--sc-espacio-5);
+  margin-bottom: var(--sc-espacio-5);
+}
+.campos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+  gap: var(--sc-espacio-4);
+  margin-bottom: var(--sc-espacio-4);
+  align-items: start;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sc-espacio-2);
+  font-size: var(--sc-texto-sm);
+  line-height: 1.4;
+}
+input,
+select,
+textarea {
+  min-width: 0;
+  max-width: 100%;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--m3c-outline-variant);
+  border-radius: var(--sc-radio-sm);
+  background: var(--m3c-surface-container-lowest);
+  color: var(--m3c-on-surface);
+  font: inherit;
+}
+textarea {
+  resize: vertical;
+  min-height: 6rem;
+  width: 100%;
+}
+label.check {
+  flex-direction: row;
+  align-items: center;
+  margin: var(--sc-espacio-3) 0;
+}
+input[type='checkbox'] {
+  accent-color: var(--m3c-primary);
+  width: 1.1rem;
+  height: 1.1rem;
+  flex-shrink: 0;
+}
+button {
+  min-height: 2.5rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--m3c-outline-variant);
+  border-radius: var(--sc-radio-pleno);
+  background: var(--m3c-surface-container-high);
+  color: var(--m3c-on-surface);
+  font: inherit;
+  font-size: var(--sc-texto-sm);
+  font-weight: 600;
+  cursor: pointer;
+}
+button.primario {
+  border-color: transparent;
+  background: var(--m3c-primary);
+  color: var(--m3c-on-primary);
+}
+button.peligro {
+  color: var(--m3c-error);
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+button:hover:not(:disabled) {
+  filter: brightness(1.08);
+}
+.acciones {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sc-espacio-2);
+}
+.ayuda {
+  color: var(--m3c-on-surface-variant);
+  font-size: var(--sc-texto-sm);
+  line-height: 1.6;
+}
+.metricas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr));
+  gap: var(--sc-espacio-3);
+  margin-bottom: var(--sc-espacio-5);
+}
+.dos-columnas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+  gap: var(--sc-espacio-5);
+  align-items: start;
+}
+.fila {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sc-espacio-4);
+  padding: var(--sc-espacio-3) 0;
+  border-bottom: 1px solid var(--m3c-outline-variant);
+}
+.fila:last-child {
+  border-bottom: 0;
+}
+.fila p {
+  margin: var(--sc-espacio-1) 0;
+}
+.fila .detalle {
+  color: var(--m3c-on-surface-variant);
+  font-size: var(--sc-texto-sm);
+}
+.resultado {
+  padding: var(--sc-espacio-4);
+  margin-top: var(--sc-espacio-4);
+  border-radius: var(--sc-radio-md);
+  background: var(--m3c-surface-container-high);
+}
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--sc-texto-sm);
+}
+.tabla th,
+.tabla td {
+  text-align: left;
+  padding: var(--sc-espacio-3);
+  border-bottom: 1px solid var(--m3c-outline-variant);
+}
+.tabla th {
+  color: var(--m3c-on-surface-variant);
+  font-weight: 500;
+}
+.tabla-contenedor {
+  overflow: auto;
+}
+progress {
+  accent-color: var(--m3c-primary);
+}
+:root[data-papel='true'] *,
+:root[data-papel='true'] *::before,
+:root[data-papel='true'] *::after {
+  animation: none !important;
+  transition: none !important;
+  box-shadow: none !important;
+}
+@media print {
+  aside,
+  .superior,
+  footer,
+  button,
+  .acciones {
+    display: none !important;
+  }
+  .carcasa,
+  .lienzo,
+  main {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+}
+:root {
+  --sc-nibi-oceano: #43b8dd;
+  --sc-nibi-lila: #bf9de3;
+  --sc-nibi-coral: #ed8e91;
+  --sc-nibi-brasa: #dd9760;
+  --sc-nibi-noche: #6679a3;
+  --sc-nibi-oro: #d8b756;
+}
+:root[data-papel='true'] {
+  --sc-nibi-oceano: var(--m3c-primary);
+  --sc-nibi-lila: var(--m3c-primary);
+  --sc-nibi-coral: var(--m3c-primary);
+  --sc-nibi-brasa: var(--m3c-primary);
+  --sc-nibi-noche: var(--m3c-primary);
+  --sc-nibi-oro: var(--m3c-primary);
+}
+
+:root[data-esquema='claro'] {
+  color-scheme: light;
+}
+:root[data-esquema='oscuro'] {
+  color-scheme: dark;
+}
+a {
+  color: var(--m3c-primary);
+  text-underline-offset: 0.2em;
+}
+
+:root[data-papel='true'] .panel {
+  border: 1.5px solid var(--m3c-outline-variant);
+}
+select {
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--m3c-on-surface-variant) 50%),
+    linear-gradient(135deg, var(--m3c-on-surface-variant) 50%, transparent 50%);
+  background-position:
+    calc(100% - 1rem) 50%,
+    calc(100% - 0.7rem) 50%;
+  background-size: 0.3rem 0.3rem;
+  background-repeat: no-repeat;
+  padding-right: 2rem;
+}
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  border-color: var(--m3c-primary);
+}
+.cabecera-vista {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sc-espacio-4);
+  margin-bottom: var(--sc-espacio-5);
+}
+.cabecera-vista > button,
+.cabecera-vista > a,
+.cabecera-vista > div > button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sc-espacio-2);
+  flex: none;
+  white-space: nowrap;
+}
+.cabecera-vista .subtitulo {
+  margin: var(--sc-espacio-2) 0 0;
+  font-size: var(--sc-texto-sm);
+}
+.enlace-accion {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sc-espacio-2);
+  min-height: 2.5rem;
+  padding: var(--sc-espacio-3) var(--sc-espacio-4);
+  border-radius: var(--sc-radio-pleno);
+  background: var(--m3c-primary);
+  color: var(--m3c-on-primary);
+  font-weight: 650;
+  font-size: var(--sc-texto-sm);
+  text-decoration: none;
+}
+
+/* Rótulos y enlaces compartidos por Hoy y sus tarjetas diferidas. */
+.rotulo-dato {
+  display: flex;
+  align-items: center;
+  gap: var(--sc-espacio-2);
+  color: var(--m3c-primary);
+  font-size: var(--sc-texto-xs);
+  font-weight: 650;
+  letter-spacing: 0.025em;
+}
+
+.enlace-discreto {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sc-espacio-2);
+  font-size: var(--sc-texto-sm);
+  color: var(--m3c-primary);
+  text-decoration: none;
+  margin-top: var(--sc-espacio-3);
+}
+
+/* Campos con aspecto de aplicación: sin flechas de incremento ni iconos del navegador. */
+input[type='number'] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='date'],
+input[type='time'] {
+  font-variant-numeric: tabular-nums;
+}
+input[type='date']::-webkit-calendar-picker-indicator,
+input[type='time']::-webkit-calendar-picker-indicator {
+  width: 1rem;
+  height: 1rem;
+  padding: 0.25rem;
+  border-radius: var(--sc-radio-sm);
+  background-color: var(--m3c-on-surface-variant);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round'%3E%3Crect x='3.5' y='5' width='17' height='15.5' rx='2'/%3E%3Cpath d='M3.5 10h17M8 3v4M16 3v4'/%3E%3C/svg%3E")
+    center / 1rem no-repeat;
+  cursor: pointer;
+}
+input[type='date']::-webkit-datetime-edit-fields-wrapper,
+input[type='time']::-webkit-datetime-edit-fields-wrapper {
+  padding: 0;
+}

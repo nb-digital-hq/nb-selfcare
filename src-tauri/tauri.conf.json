@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "NB SelfCare",
+  "mainBinaryName": "nb-selfcare",
+  "version": "1.0.0",
+  "identifier": "org.nbselfcare.desktop",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "beforeBuildCommand": "pnpm build",
+    "devUrl": "http://localhost:1440",
+    "frontendDist": "../build"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "NB SelfCare",
+        "visible": false,
+        "width": 1280,
+        "height": 820,
+        "minWidth": 760,
+        "minHeight": 560,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' asset: http://asset.localhost blob: data:; font-src 'self'; connect-src 'self' ipc: http://ipc.localhost; media-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'",
+      "freezePrototype": true
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "category": "HealthcareAndFitness",
+    "shortDescription": "Tu autocuidado diario, en tu equipo",
+    "longDescription": "NB SelfCare reúne comida, cuerpo, cuidado, ayuno, pausas activas y descanso visual en una aplicación de escritorio sin cuenta, sin nube y sin telemetría. Lee y escribe las copias de NB SelfCare Mobile.",
+    "copyright": "Copyright 2026 NB Digital",
+    "licenseFile": "../LICENSE",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "resources": {
+      "../LICENSE": "LICENSE",
+      "../THIRD-PARTY-NOTICES.md": "THIRD-PARTY-NOTICES.md",
+      "../NOTICE": "NOTICE",
+      "locales/es.lproj/InfoPlist.strings": "es.lproj/InfoPlist.strings",
+      "locales/en.lproj/InfoPlist.strings": "en.lproj/InfoPlist.strings",
+      "locales/pt.lproj/InfoPlist.strings": "pt.lproj/InfoPlist.strings"
+    },
+    "windows": {
+      "webviewInstallMode": {
+        "type": "offlineInstaller"
+      }
+    }
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEU3MjhDMUY4NkJGODM5OTMKUldTVE9maHIrTUVvNTZxTXEwdXYrVGJ0eitUWEJrdzVXbTBCNjJlQWJKMG9rYnpZcUkyYkdoWEYK",
+      "endpoints": [
+        "https://github.com/nb-digital-hq/nb-selfcare/releases/latest/download/latest.json"
+      ],
+      "requireSignedVersion": true,
+      "windows": {
+        "installMode": "passive"
+      }
+    }
+  }
+}

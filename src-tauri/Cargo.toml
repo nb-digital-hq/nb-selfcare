@@ -1,0 +1,93 @@
+[package]
+name = "nb-selfcare"
+version = "1.0.0"
+description = "Aplicación de escritorio para el autocuidado: comida, cuerpo, cuidado, ayuno y pausas"
+authors = ["NB Digital"]
+license = "Apache-2.0"
+repository = "https://github.com/nb-digital-hq/nb-selfcare"
+edition = "2021"
+rust-version = "1.100"
+# Cuál es "la aplicación" si algún día hay más de un binario: `tauri dev` ejecuta
+# `cargo run` y cargo no elige solo. Es la contraparte de `mainBinaryName` en
+# `tauri.conf.json`; los dos los ata `tests/identidad_del_binario.rs`.
+default-run = "nb-selfcare"
+
+[lib]
+# El sufijo `_lib` evita el choque de nombres con el binario en Windows.
+name = "nb_selfcare_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+# El selector de archivos nativo, para guardar y abrir copias de seguridad. Se
+# usa desde Rust: ninguna ruta cruza el puente desde el webview (ADR-004).
+tauri-plugin-dialog = "2.7.2"
+# Las actualizaciones de la aplicación (ADR-005). Su cliente HTTP es propio, así
+# que solo se usa desde `net.rs`, detrás de la misma comprobación de
+# consentimiento y anfitriones que el resto.
+tauri-plugin-updater = "2.14.1"
+# Los avisos del escritorio: pausas activas, descanso visual y tomas (ADR-007).
+tauri-plugin-notification = "2.3.3"
+# Una sola instancia: abrir otra vez la aplicación trae al frente la que ya
+# está en la bandeja, en lugar de duplicar los avisos.
+tauri-plugin-single-instance = "2.3.4"
+# Abrir al iniciar sesión, para que las pausas activas lleguen sin acordarse de
+# abrir la aplicación (ADR-007). Apagado de fábrica.
+tauri-plugin-autostart = "2.5.0"
+# La firma del `.tar.gz` de Linux, que el plugin no sabe instalar (`net.rs`).
+# Es la misma versión que el plugin ya trae para comprobar lo que instala él.
+minisign-verify = "0.3.0"
+# Las firmas que escribe `tauri signer` llegan otra vez en base64. Ya estaba en
+# el árbol por Tauri.
+base64 = "0.22.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+thiserror = "2"
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.23", features = ["env-filter", "fmt"] }
+tracing-appender = "0.2.5"
+ts-rs = "12.0.1"
+# SQLite embebido (sin depender del del sistema, y con FTS5 para buscar
+# alimentos) y su pool, como el resto de la suite (ADR-004).
+rusqlite = { version = "0.42", features = ["bundled"] }
+r2d2 = "0.8.10"
+r2d2_sqlite = "0.37.1"
+# Fechas y horas locales: los registros se agrupan por el día de quien los
+# escribe, no por el UTC (ADR-004).
+chrono = { version = "0.4.45", default-features = false, features = ["clock", "std"] }
+# Cliente HTTP síncrono con rustls: el mismo que el resto de la suite. Solo
+# `net.rs` lo usa (lo vigila `scripts/check-network.mjs`).
+ureq = { version = "3.4.0", default-features = false, features = ["rustls", "platform-verifier"] }
+tokio = { version = "1.54.1", features = ["rt-multi-thread", "net", "time", "sync", "io-util", "macros", "process"] }
+# Las reglas del analizador de texto (`texto.rs`). Ya estaba en el árbol por
+# tracing-subscriber.
+regex = "1.13.1"
+
+# Enlace local consentido: misma pila TLS/HTTP y descubrimiento de Sound y Books.
+# Apache-2.0/MIT; las credenciales pertenecen al llavero, no a SQLite ni a copias.
+axum = { version = "0.8.9", default-features = false, features = ["http1", "json", "query", "tokio", "ws"] }
+tokio-rustls = { version = "0.26.6", default-features = false, features = ["ring", "tls12"] }
+futures-util = { version = "0.3.34", default-features = false, features = ["std"] }
+rcgen = { version = "0.14.10", default-features = false, features = ["crypto", "pem", "ring"] }
+mdns-sd = "0.21.6"
+if-addrs = "0.15.0"
+qrcode = { version = "0.14.1", default-features = false }
+keyring = { version = "4.2.0", default-features = false, features = ["v1"] }
+sha2 = "0.10.9"
+getrandom = "0.4.3"
+
+[dev-dependencies]
+tauri = { version = "2", features = ["test"] }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
+
+[profile.dev]
+opt-level = 0
+split-debuginfo = "unpacked"

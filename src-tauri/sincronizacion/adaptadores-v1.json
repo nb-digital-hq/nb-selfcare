@@ -1,0 +1,2014 @@
+{
+  "version": 1,
+  "tablas": [
+    {
+      "tabla": "user_profiles",
+      "entidad": "perfil",
+      "clave": "id",
+      "unico": true,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "name",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "birth_date",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "biological_sex",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "height_cm",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "target_weight_kg",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "weekly_goal_rate_kg",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "daily_water_goal_ml",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "daily_steps_goal",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "daily_sleep_goal_hours",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "is_cycle_tracking_enabled",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "is_fasting_enabled",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "is_manual_macro_mode",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "manual_kcal_target",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "manual_protein_g",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "manual_carbs_g",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "manual_fat_g",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "active_diet_archetype",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "active_diet_phase",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "calorie_cycling_schedule_json",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "caffeine_bedtime_cutoff_hours",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "active_diet_phase_started_at",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "has_impedance_contraindication",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "has_eating_disorder_history",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "takes_hypoglycemic_medication",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "target_bedtime_minutes",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "created_at",
+          "tipo": "texto",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "pet_status",
+      "entidad": "inventario_nibi",
+      "clave": "id",
+      "unico": true,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "pet_name",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "equipped_hat_id",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "equipped_accessory_id",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "equipped_color_id",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "equipped_background_id",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "unlocked_items_json",
+          "tipo": "texto",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "daily_summaries",
+      "entidad": "descanso",
+      "clave": "date_key",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "steps_count",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "active_calories_from_steps",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "sleep_duration_minutes",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "sleep_deep_minutes",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "sleep_rem_minutes",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "resting_heart_rate_bpm",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "wake_time_minutes",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "calorie_target_kcal",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "protein_target_g",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "carbs_target_g",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "fat_target_g",
+          "tipo": "entero",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "date_key"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "food_items",
+      "entidad": "alimento",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": "source <> 'usda_seed'",
+      "columnas": [
+        {
+          "nombre": "barcode",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "name",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "brand",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "source",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "nutri_score",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "nova_group",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "default_serving_grams",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "serving_label",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "kcal_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "protein_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "carbs_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "fat_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "fiber_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "sugar_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "sodium_mg_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "potassium_mg_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "magnesium_mg_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "calcium_mg_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "iron_mg_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "zinc_mg_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "vitamin_c_mg_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "vitamin_d_ug_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "vitamin_b12_ug_per100g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "is_favorite",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "last_used_at",
+          "tipo": "texto",
+          "nulo": true
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "barcode"
+          ],
+          "excepto": {}
+        },
+        {
+          "columnas": [
+            "name",
+            "brand",
+            "source",
+            "kcal_per100g"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "meal_combos",
+      "entidad": "combo",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "name",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "default_meal_type",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "times_used",
+          "tipo": "entero",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "name"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "meal_combo_items",
+      "entidad": "combo_alimento",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "combo_id",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "food_item_id",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "base_grams",
+          "tipo": "real",
+          "nulo": false
+        }
+      ],
+      "referencias": {
+        "combo_id": "meal_combos",
+        "food_item_id": "food_items"
+      },
+      "natural": [
+        {
+          "columnas": [
+            "combo_id",
+            "food_item_id",
+            "base_grams"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "recipes",
+      "entidad": "receta",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "name",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "description",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "default_meal_type",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "total_yield_servings",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "cooked_total_weight_grams",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "kcal_per_serving",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "protein_per_serving",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "carbs_per_serving",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "fat_per_serving",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "fiber_per_serving",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "sodium_mg_per_serving",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "potassium_mg_per_serving",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "magnesium_mg_per_serving",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "created_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "last_used_at",
+          "tipo": "texto",
+          "nulo": true
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "name",
+            "created_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "recipe_ingredients",
+      "entidad": "ingrediente",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "recipe_id",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "food_item_id",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "raw_grams",
+          "tipo": "real",
+          "nulo": false
+        }
+      ],
+      "referencias": {
+        "recipe_id": "recipes",
+        "food_item_id": "food_items"
+      },
+      "natural": [
+        {
+          "columnas": [
+            "recipe_id",
+            "food_item_id",
+            "raw_grams"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "food_logs",
+      "entidad": "comida",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "logged_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "meal_type",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "food_item_id",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "grams_consumed",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "portion_multiplier",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "total_kcal",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "total_protein_g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "total_carbs_g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "total_fat_g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "total_fiber_g",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "total_sodium_mg",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "total_potassium_mg",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "total_magnesium_mg",
+          "tipo": "real",
+          "nulo": false
+        }
+      ],
+      "referencias": {
+        "food_item_id": "food_items"
+      },
+      "natural": [
+        {
+          "columnas": [
+            "logged_at",
+            "food_item_id",
+            "grams_consumed"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "hydration_logs",
+      "entidad": "agua",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "logged_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "volume_ml",
+          "tipo": "entero",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "logged_at",
+            "volume_ml"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "body_measurements",
+      "entidad": "peso",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "measured_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "source",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "weight_kg",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "trend_weight_kg",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "impedance_ohms",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "bmi",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "body_fat_percentage",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "muscle_mass_kg",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "water_percentage",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "visceral_fat_index",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "bone_mass_kg",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "protein_percentage",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "basal_metabolic_rate_kcal",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "metabolic_age",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "lean_body_mass_kg",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "body_score",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "somatotype",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "waist_cm",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "neck_cm",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "hip_cm",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "validated_body_fat_percentage",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "is_water_retention_spike",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "spike_explanation",
+          "tipo": "texto",
+          "nulo": true
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "measured_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "workout_blocks",
+      "entidad": "entrenamiento",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "performed_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "category",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "duration_minutes",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "rpe_intensity",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "applied_met",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "user_weight_at_time_kg",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "net_calories_burned",
+          "tipo": "entero",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "performed_at",
+            "category"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "fasting_sessions",
+      "entidad": "ayuno",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "protocol_name",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "target_hours",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "started_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "planned_end_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "actual_ended_at",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "is_completed",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "notes",
+          "tipo": "texto",
+          "nulo": true
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "started_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "journal_entries",
+      "entidad": "diario",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "created_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "content",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "mood_score",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "energy_level",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "stress_level",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "tags_json",
+          "tipo": "texto",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "created_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "coin_ledger",
+      "entidad": "accion_nibi",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "created_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "action_type",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "amount",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "sleep_multiplier_applied",
+          "tipo": "real",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "created_at",
+            "action_type",
+            "amount"
+          ],
+          "excepto": {}
+        },
+        {
+          "excepto": {
+            "action_type": "shop_buy"
+          },
+          "columnas": [
+            "date_key",
+            "action_type"
+          ]
+        }
+      ]
+    },
+    {
+      "tabla": "supplements_tracker",
+      "entidad": "tratamiento",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "name",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "dosage",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "target_time_of_day_minutes",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "affects_water_retention",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "is_enabled",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "created_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "kind",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "schedule_json",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "days_of_week_bitmask",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "stock_units",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "units_per_dose",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "reminders_enabled",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "lowers_glucose",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "notes",
+          "tipo": "texto",
+          "nulo": true
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "name",
+            "created_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "supplement_logs",
+      "entidad": "toma",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "supplement_id",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "taken_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "was_taken",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "slot_minutes",
+          "tipo": "entero",
+          "nulo": true
+        }
+      ],
+      "referencias": {
+        "supplement_id": "supplements_tracker"
+      },
+      "natural": [
+        {
+          "columnas": [
+            "supplement_id",
+            "date_key",
+            "slot_minutes"
+          ],
+          "excepto": {}
+        },
+        {
+          "columnas": [
+            "supplement_id",
+            "taken_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "female_cycle_logs",
+      "entidad": "ciclo",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "cycle_start_date",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "cycle_end_date",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "cycle_length_days",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "flow_intensity",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "symptoms_json",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "notes",
+          "tipo": "texto",
+          "nulo": true
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "cycle_start_date"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "digestive_logs",
+      "entidad": "digestion",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "logged_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "bristol_type",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "discomfort_level",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "symptoms_json",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "notes",
+          "tipo": "texto",
+          "nulo": true
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "logged_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "caffeine_logs",
+      "entidad": "cafeina",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "logged_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "source_name",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "caffeine_mg",
+          "tipo": "real",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "logged_at",
+            "source_name"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "protocol_plans",
+      "entidad": "plan",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "plan_name",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "fasting_days_bitmask",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "workout_slots_json",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "diet_archetype",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "is_current_active",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "updated_at",
+          "tipo": "texto",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "plan_name"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "milestone_goals",
+      "entidad": "meta",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "milestone_order",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "target_weight_kg",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "is_completed",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "completed_at",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "estimated_completion_date",
+          "tipo": "texto",
+          "nulo": true
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "milestone_order"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "care_sessions",
+      "entidad": "sesion_cuidado",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "completed_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "kind",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "variant",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "duration_seconds",
+          "tipo": "entero",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "completed_at",
+            "kind"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "custom_habits",
+      "entidad": "habito",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "name",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "icon_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "days_of_week_bitmask",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "sort_order",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "is_archived",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "created_at",
+          "tipo": "texto",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "name",
+            "created_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "habit_logs",
+      "entidad": "habito_hecho",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "habit_id",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "logged_at",
+          "tipo": "texto",
+          "nulo": false
+        }
+      ],
+      "referencias": {
+        "habit_id": "custom_habits"
+      },
+      "natural": [
+        {
+          "columnas": [
+            "habit_id",
+            "date_key"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "checkups",
+      "entidad": "chequeo",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "catalog_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "custom_name",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "interval_months",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "is_enabled",
+          "tipo": "booleano",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "catalog_key",
+            "custom_name"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "checkup_logs",
+      "entidad": "chequeo_hecho",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "checkup_id",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "done_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "notes",
+          "tipo": "texto",
+          "nulo": true
+        }
+      ],
+      "referencias": {
+        "checkup_id": "checkups"
+      },
+      "natural": [
+        {
+          "columnas": [
+            "checkup_id",
+            "done_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "symptom_logs",
+      "entidad": "sintoma",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "logged_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "symptom",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "intensity",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "notes",
+          "tipo": "texto",
+          "nulo": true
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "logged_at",
+            "symptom"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "vital_readings",
+      "entidad": "signo",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "kind",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "measured_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "primary_value",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "secondary_value",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "context",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "source",
+          "tipo": "texto",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "kind",
+            "measured_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "substance_logs",
+      "entidad": "consumo",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "logged_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "kind",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "preset_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "standard_drinks",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "kcal",
+          "tipo": "real",
+          "nulo": false
+        },
+        {
+          "nombre": "units",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "food_log_id",
+          "tipo": "entero",
+          "nulo": true
+        }
+      ],
+      "referencias": {
+        "food_log_id": "food_logs"
+      },
+      "natural": [
+        {
+          "columnas": [
+            "logged_at",
+            "kind"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "wellbeing_checks",
+      "entidad": "bienestar",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "date_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "created_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "answers_json",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "percent_score",
+          "tipo": "entero",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "created_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "quit_trackers",
+      "entidad": "libre",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "preset_key",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "custom_name",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "started_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "first_started_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "longest_streak_seconds",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "banked_seconds",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "daily_cost",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "daily_units",
+          "tipo": "real",
+          "nulo": true
+        },
+        {
+          "nombre": "daily_minutes",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "motivation",
+          "tipo": "texto",
+          "nulo": true
+        },
+        {
+          "nombre": "celebrated_milestones",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "is_archived",
+          "tipo": "booleano",
+          "nulo": false
+        },
+        {
+          "nombre": "created_at",
+          "tipo": "texto",
+          "nulo": false
+        }
+      ],
+      "referencias": {},
+      "natural": [
+        {
+          "columnas": [
+            "preset_key",
+            "first_started_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    },
+    {
+      "tabla": "quit_events",
+      "entidad": "evento_libre",
+      "clave": "id",
+      "unico": false,
+      "publicar_si": null,
+      "columnas": [
+        {
+          "nombre": "tracker_id",
+          "tipo": "entero",
+          "nulo": false
+        },
+        {
+          "nombre": "kind",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "occurred_at",
+          "tipo": "texto",
+          "nulo": false
+        },
+        {
+          "nombre": "streak_seconds",
+          "tipo": "entero",
+          "nulo": true
+        },
+        {
+          "nombre": "note",
+          "tipo": "texto",
+          "nulo": true
+        }
+      ],
+      "referencias": {
+        "tracker_id": "quit_trackers"
+      },
+      "natural": [
+        {
+          "columnas": [
+            "tracker_id",
+            "kind",
+            "occurred_at"
+          ],
+          "excepto": {}
+        }
+      ]
+    }
+  ]
+}

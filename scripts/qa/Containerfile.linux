@@ -1,0 +1,10 @@
+FROM docker.io/library/ubuntu:22.04
+
+# Solo herramientas y bibliotecas de QA; la aplicación y sus datos se montan al ejecutar.
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update -qq \
+    && apt-get install -y -qq --no-install-recommends \
+      libwebkit2gtk-4.1-0 libayatana-appindicator3-1 librsvg2-2 libssl3 xvfb openbox dbus-x11 \
+      sqlite3 python3-gi gir1.2-atspi-2.0 libatk-adaptor gir1.2-gtk-3.0 gsettings-desktop-schemas \
+      xauth xfonts-base at-spi2-core xdg-desktop-portal xdg-desktop-portal-gtk \
+    && rm -rf /var/lib/apt/lists/*

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/nb-digital-hq/nb-selfcare/security/advisories/new
+    about: "Use private reporting when available. Do not attach personal health data."
+  - name: Read the documentation
+    url: https://github.com/nb-digital-hq/nb-selfcare/tree/main/docs
+    about: The documentation is the single source of truth of the project.

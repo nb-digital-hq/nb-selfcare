@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "nota": "Fuente única de los adaptadores de sincronización. Se resuelve con scripts/generar-sincronizacion.mjs.",
+  "tablas": [
+    {
+      "tabla": "user_profiles",
+      "entidad": "perfil",
+      "unico": true,
+      "locales": [
+        "avatar_path",
+        "scale_mac_address",
+        "theme_mode",
+        "local_ai_model_path",
+        "is_local_ai_enabled",
+        "has_smart_scale",
+        "vital_devices_json",
+        "care_modules_json",
+        "discreet_notifications",
+        "current_adaptive_tdee_kcal",
+        "last_tdee_calibration"
+      ]
+    },
+    {
+      "tabla": "pet_status",
+      "entidad": "inventario_nibi",
+      "unico": true,
+      "locales": [
+        "coins_balance",
+        "current_streak_days",
+        "highest_streak_days",
+        "streak_shields_available",
+        "shield_active_until",
+        "last_ai_greeting",
+        "last_greeting_at"
+      ]
+    },
+    {
+      "tabla": "daily_summaries",
+      "entidad": "descanso",
+      "natural": [["date_key"]],
+      "locales": ["water_consumed_ml"]
+    },
+    {
+      "tabla": "food_items",
+      "entidad": "alimento",
+      "publicar_si": "source <> 'usda_seed'",
+      "natural": [["barcode"], ["name", "brand", "source", "kcal_per100g"]]
+    },
+    { "tabla": "meal_combos", "entidad": "combo", "natural": [["name"]] },
+    {
+      "tabla": "meal_combo_items",
+      "entidad": "combo_alimento",
+      "referencias": { "combo_id": "meal_combos", "food_item_id": "food_items" },
+      "natural": [["combo_id", "food_item_id", "base_grams"]]
+    },
+    { "tabla": "recipes", "entidad": "receta", "natural": [["name", "created_at"]] },
+    {
+      "tabla": "recipe_ingredients",
+      "entidad": "ingrediente",
+      "referencias": { "recipe_id": "recipes", "food_item_id": "food_items" },
+      "natural": [["recipe_id", "food_item_id", "raw_grams"]]
+    },
+    {
+      "tabla": "food_logs",
+      "entidad": "comida",
+      "referencias": { "food_item_id": "food_items" },
+      "natural": [["logged_at", "food_item_id", "grams_consumed"]]
+    },
+    {
+      "tabla": "hydration_logs",
+      "entidad": "agua",
+      "locales": ["synced_to_health_connect"],
+      "natural": [["logged_at", "volume_ml"]]
+    },
+    { "tabla": "body_measurements", "entidad": "peso", "natural": [["measured_at"]] },
+    {
+      "tabla": "workout_blocks",
+      "entidad": "entrenamiento",
+      "natural": [["performed_at", "category"]]
+    },
+    { "tabla": "fasting_sessions", "entidad": "ayuno", "natural": [["started_at"]] },
+    {
+      "tabla": "journal_entries",
+      "entidad": "diario",
+      "locales": ["progress_photo_path", "progress_photo", "ai_insight_summary"],
+      "natural": [["created_at"]]
+    },
+    {
+      "tabla": "coin_ledger",
+      "entidad": "accion_nibi",
+      "natural": [
+        ["created_at", "action_type", "amount"],
+        { "columnas": ["date_key", "action_type"], "excepto": { "action_type": "shop_buy" } }
+      ]
+    },
+    {
+      "tabla": "supplements_tracker",
+      "entidad": "tratamiento",
+      "natural": [["name", "created_at"]]
+    },
+    {
+      "tabla": "supplement_logs",
+      "entidad": "toma",
+      "referencias": { "supplement_id": "supplements_tracker" },
+      "natural": [["supplement_id", "date_key", "slot_minutes"], ["supplement_id", "taken_at"]]
+    },
+    { "tabla": "female_cycle_logs", "entidad": "ciclo", "natural": [["cycle_start_date"]] },
+    { "tabla": "digestive_logs", "entidad": "digestion", "natural": [["logged_at"]] },
+    { "tabla": "caffeine_logs", "entidad": "cafeina", "natural": [["logged_at", "source_name"]] },
+    { "tabla": "protocol_plans", "entidad": "plan", "natural": [["plan_name"]] },
+    { "tabla": "milestone_goals", "entidad": "meta", "natural": [["milestone_order"]] },
+    {
+      "tabla": "care_sessions",
+      "entidad": "sesion_cuidado",
+      "natural": [["completed_at", "kind"]]
+    },
+    { "tabla": "custom_habits", "entidad": "habito", "natural": [["name", "created_at"]] },
+    {
+      "tabla": "habit_logs",
+      "entidad": "habito_hecho",
+      "referencias": { "habit_id": "custom_habits" },
+      "natural": [["habit_id", "date_key"]]
+    },
+    { "tabla": "checkups", "entidad": "chequeo", "natural": [["catalog_key", "custom_name"]] },
+    {
+      "tabla": "checkup_logs",
+      "entidad": "chequeo_hecho",
+      "referencias": { "checkup_id": "checkups" },
+      "natural": [["checkup_id", "done_at"]]
+    },
+    { "tabla": "symptom_logs", "entidad": "sintoma", "natural": [["logged_at", "symptom"]] },
+    {
+      "tabla": "vital_readings",
+      "entidad": "signo",
+      "locales": ["external_id"],
+      "natural": [["kind", "measured_at"]]
+    },
+    {
+      "tabla": "substance_logs",
+      "entidad": "consumo",
+      "referencias": { "food_log_id": "food_logs" },
+      "natural": [["logged_at", "kind"]]
+    },
+    { "tabla": "wellbeing_checks", "entidad": "bienestar", "natural": [["created_at"]] },
+    {
+      "tabla": "quit_trackers",
+      "entidad": "libre",
+      "natural": [["preset_key", "first_started_at"]]
+    },
+    {
+      "tabla": "quit_events",
+      "entidad": "evento_libre",
+      "referencias": { "tracker_id": "quit_trackers" },
+      "natural": [["tracker_id", "kind", "occurred_at"]]
+    }
+  ],
+  "locales": [
+    "reminders",
+    "tdee_calibrations",
+    "health_sync_checkpoints",
+    "ui_preferences",
+    "preferencias",
+    "instalacion"
+  ]
+}

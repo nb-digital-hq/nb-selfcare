@@ -1,0 +1,4892 @@
+[
+  {
+    "nombre": {
+      "es": "Pechuga de pollo a la plancha",
+      "en": "Grilled chicken breast",
+      "pt": "Peito de frango grelhado"
+    },
+    "porcion": {
+      "es": "100g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 165.0,
+    "protein_per100g": 31.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 3.6,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 74.0,
+    "potassium_mg_per100g": 256.0,
+    "magnesium_mg_per100g": 29.0,
+    "calcium_mg_per100g": 15.0,
+    "iron_mg_per100g": 1.0,
+    "zinc_mg_per100g": 1.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.1,
+    "vitamin_b12_ug_per100g": 0.3,
+    "is_favorite": true
+  },
+  {
+    "nombre": {
+      "es": "Carne de res magra (Lomo)",
+      "en": "Lean beef (sirloin)",
+      "pt": "Carne bovina magra (lombo)"
+    },
+    "porcion": {
+      "es": "100g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 205.0,
+    "protein_per100g": 27.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 10.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 60.0,
+    "potassium_mg_per100g": 340.0,
+    "magnesium_mg_per100g": 24.0,
+    "calcium_mg_per100g": 18.0,
+    "iron_mg_per100g": 2.6,
+    "zinc_mg_per100g": 4.8,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.1,
+    "vitamin_b12_ug_per100g": 2.1,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Muslo de pollo cocido (sin piel)",
+      "en": "Cooked chicken thigh (skinless)",
+      "pt": "Coxa de frango cozida (sem pele)"
+    },
+    "porcion": {
+      "es": "100g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 179.0,
+    "protein_per100g": 24.7,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 8.2,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 87.0,
+    "potassium_mg_per100g": 239.0,
+    "magnesium_mg_per100g": 23.0,
+    "calcium_mg_per100g": 12.0,
+    "iron_mg_per100g": 1.3,
+    "zinc_mg_per100g": 2.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.2,
+    "vitamin_b12_ug_per100g": 0.4,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Salmón a la plancha",
+      "en": "Grilled salmon",
+      "pt": "Salmão grelhado"
+    },
+    "porcion": {
+      "es": "100g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 206.0,
+    "protein_per100g": 22.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 12.3,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 61.0,
+    "potassium_mg_per100g": 384.0,
+    "magnesium_mg_per100g": 30.0,
+    "calcium_mg_per100g": 15.0,
+    "iron_mg_per100g": 0.8,
+    "zinc_mg_per100g": 0.6,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 11.0,
+    "vitamin_b12_ug_per100g": 3.2,
+    "is_favorite": true
+  },
+  {
+    "nombre": {
+      "es": "Atún en agua (escurrido)",
+      "en": "Tuna in water (drained)",
+      "pt": "Atum em água (escorrido)"
+    },
+    "porcion": {
+      "es": "100g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 116.0,
+    "protein_per100g": 26.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 1.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 330.0,
+    "potassium_mg_per100g": 237.0,
+    "magnesium_mg_per100g": 28.0,
+    "calcium_mg_per100g": 11.0,
+    "iron_mg_per100g": 1.5,
+    "zinc_mg_per100g": 0.8,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 1.7,
+    "vitamin_b12_ug_per100g": 2.5,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Huevo entero cocido o revuelto",
+      "en": "Whole egg, boiled or scrambled",
+      "pt": "Ovo inteiro cozido ou mexido"
+    },
+    "porcion": {
+      "es": "1 unidad (50g)",
+      "en": "1 unit (50 g)",
+      "pt": "1 unidade (50 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 50.0,
+    "kcal_per100g": 143.0,
+    "protein_per100g": 12.6,
+    "carbs_per100g": 0.7,
+    "fat_per100g": 9.5,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.4,
+    "sodium_mg_per100g": 124.0,
+    "potassium_mg_per100g": 126.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 56.0,
+    "iron_mg_per100g": 1.75,
+    "zinc_mg_per100g": 1.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 2.0,
+    "vitamin_b12_ug_per100g": 1.1,
+    "is_favorite": true
+  },
+  {
+    "nombre": {
+      "es": "Clara de huevo",
+      "en": "Egg white",
+      "pt": "Clara de ovo"
+    },
+    "porcion": {
+      "es": "1 unidad (33g)",
+      "en": "1 unit (33 g)",
+      "pt": "1 unidade (33 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 33.0,
+    "kcal_per100g": 52.0,
+    "protein_per100g": 10.9,
+    "carbs_per100g": 0.7,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.7,
+    "sodium_mg_per100g": 166.0,
+    "potassium_mg_per100g": 163.0,
+    "magnesium_mg_per100g": 11.0,
+    "calcium_mg_per100g": 7.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.1,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Yogur griego natural sin azúcar",
+      "en": "Plain Greek yogurt, unsweetened",
+      "pt": "Iogurte grego natural sem açúcar"
+    },
+    "porcion": {
+      "es": "1 taza (150g)",
+      "en": "1 cup (150 g)",
+      "pt": "1 xícara (150 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 150.0,
+    "kcal_per100g": 73.0,
+    "protein_per100g": 10.0,
+    "carbs_per100g": 3.8,
+    "fat_per100g": 2.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 3.6,
+    "sodium_mg_per100g": 36.0,
+    "potassium_mg_per100g": 141.0,
+    "magnesium_mg_per100g": 11.0,
+    "calcium_mg_per100g": 110.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 0.5,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.5,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Queso campesino / blanco fresco",
+      "en": "Fresh white cheese",
+      "pt": "Queijo branco fresco"
+    },
+    "porcion": {
+      "es": "1 tajada (30g)",
+      "en": "1 slice (30 g)",
+      "pt": "1 fatia (30 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 260.0,
+    "protein_per100g": 18.0,
+    "carbs_per100g": 2.5,
+    "fat_per100g": 20.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 1.5,
+    "sodium_mg_per100g": 480.0,
+    "potassium_mg_per100g": 95.0,
+    "magnesium_mg_per100g": 18.0,
+    "calcium_mg_per100g": 520.0,
+    "iron_mg_per100g": 0.4,
+    "zinc_mg_per100g": 2.2,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.4,
+    "vitamin_b12_ug_per100g": 1.2,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Plátano / Banano maduro",
+      "en": "Ripe banana",
+      "pt": "Banana madura"
+    },
+    "porcion": {
+      "es": "1 unidad (118g)",
+      "en": "1 unit (118 g)",
+      "pt": "1 unidade (118 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 118.0,
+    "kcal_per100g": 89.0,
+    "protein_per100g": 1.1,
+    "carbs_per100g": 22.8,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 2.6,
+    "sugar_per100g": 12.2,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 358.0,
+    "magnesium_mg_per100g": 27.0,
+    "calcium_mg_per100g": 5.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 8.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": true
+  },
+  {
+    "nombre": {
+      "es": "Aguacate Hass",
+      "en": "Hass avocado",
+      "pt": "Abacate Hass"
+    },
+    "porcion": {
+      "es": "1/2 unidad (100g)",
+      "en": "1/2 unit (100 g)",
+      "pt": "1/2 unidade (100 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 160.0,
+    "protein_per100g": 2.0,
+    "carbs_per100g": 8.5,
+    "fat_per100g": 14.7,
+    "fiber_per100g": 6.7,
+    "sugar_per100g": 0.7,
+    "sodium_mg_per100g": 7.0,
+    "potassium_mg_per100g": 485.0,
+    "magnesium_mg_per100g": 29.0,
+    "calcium_mg_per100g": 12.0,
+    "iron_mg_per100g": 0.6,
+    "zinc_mg_per100g": 0.6,
+    "vitamin_c_mg_per100g": 10.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": true
+  },
+  {
+    "nombre": {
+      "es": "Manzana con piel",
+      "en": "Apple with skin",
+      "pt": "Maçã com casca"
+    },
+    "porcion": {
+      "es": "1 unidad (180g)",
+      "en": "1 unit (180 g)",
+      "pt": "1 unidade (180 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 180.0,
+    "kcal_per100g": 52.0,
+    "protein_per100g": 0.3,
+    "carbs_per100g": 13.8,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 2.4,
+    "sugar_per100g": 10.4,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 107.0,
+    "magnesium_mg_per100g": 5.0,
+    "calcium_mg_per100g": 6.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 4.6,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Espinaca cruda",
+      "en": "Raw spinach",
+      "pt": "Espinafre cru"
+    },
+    "porcion": {
+      "es": "1 taza (30g)",
+      "en": "1 cup (30 g)",
+      "pt": "1 xícara (30 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 23.0,
+    "protein_per100g": 2.9,
+    "carbs_per100g": 3.6,
+    "fat_per100g": 0.4,
+    "fiber_per100g": 2.2,
+    "sugar_per100g": 0.4,
+    "sodium_mg_per100g": 79.0,
+    "potassium_mg_per100g": 558.0,
+    "magnesium_mg_per100g": 79.0,
+    "calcium_mg_per100g": 99.0,
+    "iron_mg_per100g": 2.7,
+    "zinc_mg_per100g": 0.5,
+    "vitamin_c_mg_per100g": 28.1,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Brócoli al vapor",
+      "en": "Steamed broccoli",
+      "pt": "Brócolis no vapor"
+    },
+    "porcion": {
+      "es": "1 taza (150g)",
+      "en": "1 cup (150 g)",
+      "pt": "1 xícara (150 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 150.0,
+    "kcal_per100g": 35.0,
+    "protein_per100g": 2.4,
+    "carbs_per100g": 7.2,
+    "fat_per100g": 0.4,
+    "fiber_per100g": 3.3,
+    "sugar_per100g": 1.4,
+    "sodium_mg_per100g": 41.0,
+    "potassium_mg_per100g": 293.0,
+    "magnesium_mg_per100g": 21.0,
+    "calcium_mg_per100g": 40.0,
+    "iron_mg_per100g": 0.7,
+    "zinc_mg_per100g": 0.4,
+    "vitamin_c_mg_per100g": 64.9,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Arroz blanco cocido",
+      "en": "Cooked white rice",
+      "pt": "Arroz branco cozido"
+    },
+    "porcion": {
+      "es": "1 taza (158g)",
+      "en": "1 cup (158 g)",
+      "pt": "1 xícara (158 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 158.0,
+    "kcal_per100g": 130.0,
+    "protein_per100g": 2.7,
+    "carbs_per100g": 28.2,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 0.4,
+    "sugar_per100g": 0.1,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 35.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 10.0,
+    "iron_mg_per100g": 1.2,
+    "zinc_mg_per100g": 0.5,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": true
+  },
+  {
+    "nombre": {
+      "es": "Papa cocida con piel",
+      "en": "Boiled potato with skin",
+      "pt": "Batata cozida com casca"
+    },
+    "porcion": {
+      "es": "1 unidad mediana (150g)",
+      "en": "1 medium unit (150 g)",
+      "pt": "1 unidade média (150 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 150.0,
+    "kcal_per100g": 87.0,
+    "protein_per100g": 1.9,
+    "carbs_per100g": 20.1,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 1.8,
+    "sugar_per100g": 0.9,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 379.0,
+    "magnesium_mg_per100g": 23.0,
+    "calcium_mg_per100g": 12.0,
+    "iron_mg_per100g": 0.8,
+    "zinc_mg_per100g": 0.3,
+    "vitamin_c_mg_per100g": 13.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Avena en hojuelas",
+      "en": "Rolled oats",
+      "pt": "Aveia em flocos"
+    },
+    "porcion": {
+      "es": "1/2 taza seca (40g)",
+      "en": "1/2 cup dry (40 g)",
+      "pt": "1/2 xícara seca (40 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 40.0,
+    "kcal_per100g": 389.0,
+    "protein_per100g": 16.9,
+    "carbs_per100g": 66.3,
+    "fat_per100g": 6.9,
+    "fiber_per100g": 10.6,
+    "sugar_per100g": 0.9,
+    "sodium_mg_per100g": 2.0,
+    "potassium_mg_per100g": 429.0,
+    "magnesium_mg_per100g": 177.0,
+    "calcium_mg_per100g": 54.0,
+    "iron_mg_per100g": 4.7,
+    "zinc_mg_per100g": 4.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": true
+  },
+  {
+    "nombre": {
+      "es": "Arepa de maíz blanco tradicional",
+      "en": "Traditional white corn arepa",
+      "pt": "Arepa de milho branco tradicional"
+    },
+    "porcion": {
+      "es": "1 unidad (100g)",
+      "en": "1 unit (100 g)",
+      "pt": "1 unidade (100 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 210.0,
+    "protein_per100g": 4.5,
+    "carbs_per100g": 42.0,
+    "fat_per100g": 2.0,
+    "fiber_per100g": 3.5,
+    "sugar_per100g": 0.8,
+    "sodium_mg_per100g": 180.0,
+    "potassium_mg_per100g": 120.0,
+    "magnesium_mg_per100g": 35.0,
+    "calcium_mg_per100g": 20.0,
+    "iron_mg_per100g": 1.8,
+    "zinc_mg_per100g": 1.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": true
+  },
+  {
+    "nombre": {
+      "es": "Lentejas cocidas",
+      "en": "Cooked lentils",
+      "pt": "Lentilhas cozidas"
+    },
+    "porcion": {
+      "es": "1 taza (198g)",
+      "en": "1 cup (198 g)",
+      "pt": "1 xícara (198 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 198.0,
+    "kcal_per100g": 116.0,
+    "protein_per100g": 9.0,
+    "carbs_per100g": 20.1,
+    "fat_per100g": 0.4,
+    "fiber_per100g": 7.9,
+    "sugar_per100g": 1.8,
+    "sodium_mg_per100g": 2.0,
+    "potassium_mg_per100g": 369.0,
+    "magnesium_mg_per100g": 36.0,
+    "calcium_mg_per100g": 19.0,
+    "iron_mg_per100g": 3.3,
+    "zinc_mg_per100g": 1.3,
+    "vitamin_c_mg_per100g": 1.5,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Aceite de oliva extra virgen",
+      "en": "Extra virgin olive oil",
+      "pt": "Azeite de oliva extravirgem"
+    },
+    "porcion": {
+      "es": "1 cucharada (14g)",
+      "en": "1 tablespoon (14 g)",
+      "pt": "1 colher de sopa (14 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 14.0,
+    "kcal_per100g": 884.0,
+    "protein_per100g": 0.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 100.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 2.0,
+    "potassium_mg_per100g": 1.0,
+    "magnesium_mg_per100g": 0.0,
+    "calcium_mg_per100g": 1.0,
+    "iron_mg_per100g": 0.6,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": true
+  },
+  {
+    "nombre": {
+      "es": "Almendras naturales",
+      "en": "Raw almonds",
+      "pt": "Amêndoas naturais"
+    },
+    "porcion": {
+      "es": "1 puñado (30g)",
+      "en": "1 handful (30 g)",
+      "pt": "1 punhado (30 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 579.0,
+    "protein_per100g": 21.2,
+    "carbs_per100g": 21.6,
+    "fat_per100g": 49.9,
+    "fiber_per100g": 12.5,
+    "sugar_per100g": 4.4,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 733.0,
+    "magnesium_mg_per100g": 270.0,
+    "calcium_mg_per100g": 269.0,
+    "iron_mg_per100g": 3.7,
+    "zinc_mg_per100g": 3.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Café negro sin azúcar",
+      "en": "Black coffee, unsweetened",
+      "pt": "Café preto sem açúcar"
+    },
+    "porcion": {
+      "es": "1 taza (240ml)",
+      "en": "1 cup (240 ml)",
+      "pt": "1 xícara (240 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 240.0,
+    "kcal_per100g": 1.0,
+    "protein_per100g": 0.1,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 0.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 2.0,
+    "potassium_mg_per100g": 49.0,
+    "magnesium_mg_per100g": 3.0,
+    "calcium_mg_per100g": 2.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": true
+  },
+  {
+    "nombre": {
+      "es": "Agua natural pura",
+      "en": "Plain water",
+      "pt": "Água natural"
+    },
+    "porcion": {
+      "es": "1 vaso (250ml)",
+      "en": "1 glass (250 ml)",
+      "pt": "1 copo (250 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 250.0,
+    "kcal_per100g": 0.0,
+    "protein_per100g": 0.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 0.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 0.0,
+    "magnesium_mg_per100g": 1.0,
+    "calcium_mg_per100g": 2.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": true
+  },
+  {
+    "nombre": {
+      "es": "Pechuga de pavo asada",
+      "en": "Roast turkey breast",
+      "pt": "Peito de peru assado"
+    },
+    "porcion": {
+      "es": "100 g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 135.0,
+    "protein_per100g": 30.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 1.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 99.0,
+    "potassium_mg_per100g": 293.0,
+    "magnesium_mg_per100g": 32.0,
+    "calcium_mg_per100g": 11.0,
+    "iron_mg_per100g": 0.7,
+    "zinc_mg_per100g": 1.5,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.1,
+    "vitamin_b12_ug_per100g": 0.4,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Carne molida de res magra (cocida)",
+      "en": "Lean ground beef (cooked)",
+      "pt": "Carne moída magra (cozida)"
+    },
+    "porcion": {
+      "es": "100 g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 217.0,
+    "protein_per100g": 26.1,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 11.8,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 72.0,
+    "potassium_mg_per100g": 360.0,
+    "magnesium_mg_per100g": 22.0,
+    "calcium_mg_per100g": 12.0,
+    "iron_mg_per100g": 2.8,
+    "zinc_mg_per100g": 6.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.1,
+    "vitamin_b12_ug_per100g": 2.6,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Carne molida de res 80/20 (cocida)",
+      "en": "Ground beef 80/20 (cooked)",
+      "pt": "Carne moída 80/20 (cozida)"
+    },
+    "porcion": {
+      "es": "100 g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 254.0,
+    "protein_per100g": 25.9,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 16.2,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 75.0,
+    "potassium_mg_per100g": 318.0,
+    "magnesium_mg_per100g": 21.0,
+    "calcium_mg_per100g": 18.0,
+    "iron_mg_per100g": 2.6,
+    "zinc_mg_per100g": 6.2,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.1,
+    "vitamin_b12_ug_per100g": 2.6,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Lomo de cerdo asado",
+      "en": "Roast pork loin",
+      "pt": "Lombo de porco assado"
+    },
+    "porcion": {
+      "es": "100 g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 206.0,
+    "protein_per100g": 27.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 10.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 52.0,
+    "potassium_mg_per100g": 361.0,
+    "magnesium_mg_per100g": 26.0,
+    "calcium_mg_per100g": 18.0,
+    "iron_mg_per100g": 0.9,
+    "zinc_mg_per100g": 2.4,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.6,
+    "vitamin_b12_ug_per100g": 0.7,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Chuleta de cerdo a la plancha",
+      "en": "Grilled pork chop",
+      "pt": "Costeleta de porco grelhada"
+    },
+    "porcion": {
+      "es": "1 chuleta",
+      "en": "1 chop",
+      "pt": "1 costeleta"
+    },
+    "nova_group": null,
+    "default_serving_grams": 120.0,
+    "kcal_per100g": 231.0,
+    "protein_per100g": 26.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 13.5,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 62.0,
+    "potassium_mg_per100g": 352.0,
+    "magnesium_mg_per100g": 25.0,
+    "calcium_mg_per100g": 22.0,
+    "iron_mg_per100g": 0.8,
+    "zinc_mg_per100g": 2.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.5,
+    "vitamin_b12_ug_per100g": 0.6,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Tocino frito",
+      "en": "Fried bacon",
+      "pt": "Bacon frito"
+    },
+    "porcion": {
+      "es": "2 tiras",
+      "en": "2 strips",
+      "pt": "2 tiras"
+    },
+    "nova_group": null,
+    "default_serving_grams": 16.0,
+    "kcal_per100g": 541.0,
+    "protein_per100g": 37.0,
+    "carbs_per100g": 1.4,
+    "fat_per100g": 42.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 1717.0,
+    "potassium_mg_per100g": 565.0,
+    "magnesium_mg_per100g": 34.0,
+    "calcium_mg_per100g": 11.0,
+    "iron_mg_per100g": 1.4,
+    "zinc_mg_per100g": 3.5,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.4,
+    "vitamin_b12_ug_per100g": 1.2,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Jamón de cerdo en rebanadas",
+      "en": "Sliced ham",
+      "pt": "Presunto fatiado"
+    },
+    "porcion": {
+      "es": "2 rebanadas",
+      "en": "2 slices",
+      "pt": "2 fatias"
+    },
+    "nova_group": null,
+    "default_serving_grams": 40.0,
+    "kcal_per100g": 145.0,
+    "protein_per100g": 21.0,
+    "carbs_per100g": 1.5,
+    "fat_per100g": 5.5,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 1.0,
+    "sodium_mg_per100g": 1200.0,
+    "potassium_mg_per100g": 287.0,
+    "magnesium_mg_per100g": 22.0,
+    "calcium_mg_per100g": 8.0,
+    "iron_mg_per100g": 0.9,
+    "zinc_mg_per100g": 2.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.5,
+    "vitamin_b12_ug_per100g": 0.6,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Salchicha tipo Frankfurt",
+      "en": "Frankfurter sausage",
+      "pt": "Salsicha tipo Frankfurt"
+    },
+    "porcion": {
+      "es": "1 unidad",
+      "en": "1 unit",
+      "pt": "1 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 45.0,
+    "kcal_per100g": 290.0,
+    "protein_per100g": 10.5,
+    "carbs_per100g": 4.2,
+    "fat_per100g": 26.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 1.2,
+    "sodium_mg_per100g": 1090.0,
+    "potassium_mg_per100g": 166.0,
+    "magnesium_mg_per100g": 11.0,
+    "calcium_mg_per100g": 11.0,
+    "iron_mg_per100g": 1.1,
+    "zinc_mg_per100g": 1.7,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.5,
+    "vitamin_b12_ug_per100g": 1.1,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Chorizo",
+      "en": "Chorizo",
+      "pt": "Chouriço"
+    },
+    "porcion": {
+      "es": "1 unidad",
+      "en": "1 unit",
+      "pt": "1 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 60.0,
+    "kcal_per100g": 455.0,
+    "protein_per100g": 24.0,
+    "carbs_per100g": 1.9,
+    "fat_per100g": 38.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 1235.0,
+    "potassium_mg_per100g": 398.0,
+    "magnesium_mg_per100g": 18.0,
+    "calcium_mg_per100g": 8.0,
+    "iron_mg_per100g": 1.6,
+    "zinc_mg_per100g": 3.4,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 2.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Hígado de res cocido",
+      "en": "Cooked beef liver",
+      "pt": "Fígado bovino cozido"
+    },
+    "porcion": {
+      "es": "100 g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 175.0,
+    "protein_per100g": 27.0,
+    "carbs_per100g": 5.2,
+    "fat_per100g": 4.7,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 79.0,
+    "potassium_mg_per100g": 351.0,
+    "magnesium_mg_per100g": 22.0,
+    "calcium_mg_per100g": 6.0,
+    "iron_mg_per100g": 6.5,
+    "zinc_mg_per100g": 5.3,
+    "vitamin_c_mg_per100g": 1.9,
+    "vitamin_d_ug_per100g": 1.2,
+    "vitamin_b12_ug_per100g": 70.6,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pollo asado con piel",
+      "en": "Roast chicken with skin",
+      "pt": "Frango assado com pele"
+    },
+    "porcion": {
+      "es": "1 presa",
+      "en": "1 piece",
+      "pt": "1 pedaço"
+    },
+    "nova_group": null,
+    "default_serving_grams": 120.0,
+    "kcal_per100g": 239.0,
+    "protein_per100g": 27.3,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 13.6,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 82.0,
+    "potassium_mg_per100g": 223.0,
+    "magnesium_mg_per100g": 23.0,
+    "calcium_mg_per100g": 15.0,
+    "iron_mg_per100g": 1.3,
+    "zinc_mg_per100g": 1.9,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.1,
+    "vitamin_b12_ug_per100g": 0.3,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Alitas de pollo horneadas",
+      "en": "Baked chicken wings",
+      "pt": "Asinhas de frango assadas"
+    },
+    "porcion": {
+      "es": "4 alitas",
+      "en": "4 wings",
+      "pt": "4 asinhas"
+    },
+    "nova_group": null,
+    "default_serving_grams": 120.0,
+    "kcal_per100g": 290.0,
+    "protein_per100g": 27.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 19.5,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 82.0,
+    "potassium_mg_per100g": 184.0,
+    "magnesium_mg_per100g": 19.0,
+    "calcium_mg_per100g": 15.0,
+    "iron_mg_per100g": 1.3,
+    "zinc_mg_per100g": 1.8,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.1,
+    "vitamin_b12_ug_per100g": 0.3,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Tilapia a la plancha",
+      "en": "Grilled tilapia",
+      "pt": "Tilápia grelhada"
+    },
+    "porcion": {
+      "es": "1 filete",
+      "en": "1 fillet",
+      "pt": "1 filé"
+    },
+    "nova_group": null,
+    "default_serving_grams": 120.0,
+    "kcal_per100g": 128.0,
+    "protein_per100g": 26.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 2.7,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 56.0,
+    "potassium_mg_per100g": 380.0,
+    "magnesium_mg_per100g": 34.0,
+    "calcium_mg_per100g": 14.0,
+    "iron_mg_per100g": 0.7,
+    "zinc_mg_per100g": 0.4,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 3.7,
+    "vitamin_b12_ug_per100g": 1.9,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pescado blanco cocido (merluza, bacalao)",
+      "en": "Cooked white fish (hake, cod)",
+      "pt": "Peixe branco cozido (pescada, bacalhau)"
+    },
+    "porcion": {
+      "es": "1 filete",
+      "en": "1 fillet",
+      "pt": "1 filé"
+    },
+    "nova_group": null,
+    "default_serving_grams": 120.0,
+    "kcal_per100g": 105.0,
+    "protein_per100g": 23.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 0.9,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 78.0,
+    "potassium_mg_per100g": 244.0,
+    "magnesium_mg_per100g": 42.0,
+    "calcium_mg_per100g": 14.0,
+    "iron_mg_per100g": 0.5,
+    "zinc_mg_per100g": 0.6,
+    "vitamin_c_mg_per100g": 1.0,
+    "vitamin_d_ug_per100g": 1.2,
+    "vitamin_b12_ug_per100g": 1.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Sardinas en aceite (escurridas)",
+      "en": "Sardines in oil (drained)",
+      "pt": "Sardinhas em óleo (escorridas)"
+    },
+    "porcion": {
+      "es": "1 lata",
+      "en": "1 can",
+      "pt": "1 lata"
+    },
+    "nova_group": null,
+    "default_serving_grams": 90.0,
+    "kcal_per100g": 208.0,
+    "protein_per100g": 24.6,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 11.5,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 307.0,
+    "potassium_mg_per100g": 397.0,
+    "magnesium_mg_per100g": 39.0,
+    "calcium_mg_per100g": 382.0,
+    "iron_mg_per100g": 2.9,
+    "zinc_mg_per100g": 1.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 4.8,
+    "vitamin_b12_ug_per100g": 8.9,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Camarones cocidos",
+      "en": "Cooked shrimp",
+      "pt": "Camarão cozido"
+    },
+    "porcion": {
+      "es": "100 g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 99.0,
+    "protein_per100g": 24.0,
+    "carbs_per100g": 0.2,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 224.0,
+    "potassium_mg_per100g": 259.0,
+    "magnesium_mg_per100g": 39.0,
+    "calcium_mg_per100g": 70.0,
+    "iron_mg_per100g": 0.5,
+    "zinc_mg_per100g": 1.6,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 1.5,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Atún en aceite (escurrido)",
+      "en": "Tuna in oil (drained)",
+      "pt": "Atum em óleo (escorrido)"
+    },
+    "porcion": {
+      "es": "1 lata",
+      "en": "1 can",
+      "pt": "1 lata"
+    },
+    "nova_group": null,
+    "default_serving_grams": 120.0,
+    "kcal_per100g": 198.0,
+    "protein_per100g": 29.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 8.2,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 354.0,
+    "potassium_mg_per100g": 207.0,
+    "magnesium_mg_per100g": 31.0,
+    "calcium_mg_per100g": 13.0,
+    "iron_mg_per100g": 1.4,
+    "zinc_mg_per100g": 0.9,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 6.7,
+    "vitamin_b12_ug_per100g": 2.2,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Salmón ahumado",
+      "en": "Smoked salmon",
+      "pt": "Salmão defumado"
+    },
+    "porcion": {
+      "es": "50 g",
+      "en": "50 g",
+      "pt": "50 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 50.0,
+    "kcal_per100g": 117.0,
+    "protein_per100g": 18.3,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 4.3,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 784.0,
+    "potassium_mg_per100g": 175.0,
+    "magnesium_mg_per100g": 18.0,
+    "calcium_mg_per100g": 11.0,
+    "iron_mg_per100g": 0.9,
+    "zinc_mg_per100g": 0.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 17.0,
+    "vitamin_b12_ug_per100g": 3.3,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Leche entera",
+      "en": "Whole milk",
+      "pt": "Leite integral"
+    },
+    "porcion": {
+      "es": "1 vaso (240 ml)",
+      "en": "1 glass (240 ml)",
+      "pt": "1 copo (240 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 244.0,
+    "kcal_per100g": 61.0,
+    "protein_per100g": 3.2,
+    "carbs_per100g": 4.8,
+    "fat_per100g": 3.3,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 4.8,
+    "sodium_mg_per100g": 43.0,
+    "potassium_mg_per100g": 132.0,
+    "magnesium_mg_per100g": 10.0,
+    "calcium_mg_per100g": 113.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.4,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 1.3,
+    "vitamin_b12_ug_per100g": 0.5,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Leche descremada",
+      "en": "Skim milk",
+      "pt": "Leite desnatado"
+    },
+    "porcion": {
+      "es": "1 vaso (240 ml)",
+      "en": "1 glass (240 ml)",
+      "pt": "1 copo (240 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 245.0,
+    "kcal_per100g": 34.0,
+    "protein_per100g": 3.4,
+    "carbs_per100g": 5.0,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 5.0,
+    "sodium_mg_per100g": 42.0,
+    "potassium_mg_per100g": 156.0,
+    "magnesium_mg_per100g": 11.0,
+    "calcium_mg_per100g": 122.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.4,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 1.2,
+    "vitamin_b12_ug_per100g": 0.5,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Leche deslactosada semidescremada",
+      "en": "Lactose-free semi-skimmed milk",
+      "pt": "Leite sem lactose semidesnatado"
+    },
+    "porcion": {
+      "es": "1 vaso (240 ml)",
+      "en": "1 glass (240 ml)",
+      "pt": "1 copo (240 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 245.0,
+    "kcal_per100g": 46.0,
+    "protein_per100g": 3.3,
+    "carbs_per100g": 4.8,
+    "fat_per100g": 1.5,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 4.8,
+    "sodium_mg_per100g": 44.0,
+    "potassium_mg_per100g": 150.0,
+    "magnesium_mg_per100g": 11.0,
+    "calcium_mg_per100g": 120.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.4,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 1.2,
+    "vitamin_b12_ug_per100g": 0.5,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Bebida de almendras sin azúcar",
+      "en": "Unsweetened almond drink",
+      "pt": "Bebida de amêndoa sem açúcar"
+    },
+    "porcion": {
+      "es": "1 vaso (240 ml)",
+      "en": "1 glass (240 ml)",
+      "pt": "1 copo (240 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 240.0,
+    "kcal_per100g": 15.0,
+    "protein_per100g": 0.6,
+    "carbs_per100g": 0.6,
+    "fat_per100g": 1.2,
+    "fiber_per100g": 0.2,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 72.0,
+    "potassium_mg_per100g": 67.0,
+    "magnesium_mg_per100g": 7.0,
+    "calcium_mg_per100g": 184.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 1.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Yogur natural entero",
+      "en": "Plain whole-milk yogurt",
+      "pt": "Iogurte natural integral"
+    },
+    "porcion": {
+      "es": "1 vaso (170 g)",
+      "en": "1 cup (170 g)",
+      "pt": "1 copo (170 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 170.0,
+    "kcal_per100g": 61.0,
+    "protein_per100g": 3.5,
+    "carbs_per100g": 4.7,
+    "fat_per100g": 3.3,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 4.7,
+    "sodium_mg_per100g": 46.0,
+    "potassium_mg_per100g": 155.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 121.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 0.6,
+    "vitamin_c_mg_per100g": 0.5,
+    "vitamin_d_ug_per100g": 0.1,
+    "vitamin_b12_ug_per100g": 0.4,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Kéfir natural",
+      "en": "Plain kefir",
+      "pt": "Kefir natural"
+    },
+    "porcion": {
+      "es": "1 vaso (240 ml)",
+      "en": "1 glass (240 ml)",
+      "pt": "1 copo (240 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 240.0,
+    "kcal_per100g": 41.0,
+    "protein_per100g": 3.8,
+    "carbs_per100g": 4.5,
+    "fat_per100g": 1.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 4.6,
+    "sodium_mg_per100g": 40.0,
+    "potassium_mg_per100g": 164.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 130.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.5,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 1.1,
+    "vitamin_b12_ug_per100g": 0.3,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Queso mozzarella",
+      "en": "Mozzarella cheese",
+      "pt": "Queijo muçarela"
+    },
+    "porcion": {
+      "es": "30 g",
+      "en": "30 g",
+      "pt": "30 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 300.0,
+    "protein_per100g": 22.0,
+    "carbs_per100g": 2.2,
+    "fat_per100g": 22.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 1.0,
+    "sodium_mg_per100g": 627.0,
+    "potassium_mg_per100g": 76.0,
+    "magnesium_mg_per100g": 20.0,
+    "calcium_mg_per100g": 505.0,
+    "iron_mg_per100g": 0.4,
+    "zinc_mg_per100g": 2.9,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.4,
+    "vitamin_b12_ug_per100g": 2.3,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Queso cheddar",
+      "en": "Cheddar cheese",
+      "pt": "Queijo cheddar"
+    },
+    "porcion": {
+      "es": "30 g",
+      "en": "30 g",
+      "pt": "30 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 403.0,
+    "protein_per100g": 23.0,
+    "carbs_per100g": 1.3,
+    "fat_per100g": 33.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.5,
+    "sodium_mg_per100g": 653.0,
+    "potassium_mg_per100g": 98.0,
+    "magnesium_mg_per100g": 28.0,
+    "calcium_mg_per100g": 710.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 3.6,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.6,
+    "vitamin_b12_ug_per100g": 1.1,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Queso cottage",
+      "en": "Cottage cheese",
+      "pt": "Queijo cottage"
+    },
+    "porcion": {
+      "es": "1/2 taza",
+      "en": "1/2 cup",
+      "pt": "1/2 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 113.0,
+    "kcal_per100g": 98.0,
+    "protein_per100g": 11.1,
+    "carbs_per100g": 3.4,
+    "fat_per100g": 4.3,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 2.7,
+    "sodium_mg_per100g": 364.0,
+    "potassium_mg_per100g": 104.0,
+    "magnesium_mg_per100g": 8.0,
+    "calcium_mg_per100g": 83.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 0.4,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.1,
+    "vitamin_b12_ug_per100g": 0.4,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Queso crema",
+      "en": "Cream cheese",
+      "pt": "Cream cheese"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 15.0,
+    "kcal_per100g": 342.0,
+    "protein_per100g": 6.0,
+    "carbs_per100g": 4.1,
+    "fat_per100g": 34.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 3.2,
+    "sodium_mg_per100g": 321.0,
+    "potassium_mg_per100g": 138.0,
+    "magnesium_mg_per100g": 9.0,
+    "calcium_mg_per100g": 98.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 0.5,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.6,
+    "vitamin_b12_ug_per100g": 0.2,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Queso parmesano rallado",
+      "en": "Grated parmesan cheese",
+      "pt": "Queijo parmesão ralado"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 5.0,
+    "kcal_per100g": 392.0,
+    "protein_per100g": 35.8,
+    "carbs_per100g": 3.2,
+    "fat_per100g": 25.8,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.8,
+    "sodium_mg_per100g": 1376.0,
+    "potassium_mg_per100g": 125.0,
+    "magnesium_mg_per100g": 38.0,
+    "calcium_mg_per100g": 1184.0,
+    "iron_mg_per100g": 0.8,
+    "zinc_mg_per100g": 2.8,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.5,
+    "vitamin_b12_ug_per100g": 1.2,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Mantequilla con sal",
+      "en": "Salted butter",
+      "pt": "Manteiga com sal"
+    },
+    "porcion": {
+      "es": "1 cucharadita",
+      "en": "1 teaspoon",
+      "pt": "1 colher de chá"
+    },
+    "nova_group": null,
+    "default_serving_grams": 5.0,
+    "kcal_per100g": 717.0,
+    "protein_per100g": 0.9,
+    "carbs_per100g": 0.1,
+    "fat_per100g": 81.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.1,
+    "sodium_mg_per100g": 643.0,
+    "potassium_mg_per100g": 24.0,
+    "magnesium_mg_per100g": 2.0,
+    "calcium_mg_per100g": 24.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 1.5,
+    "vitamin_b12_ug_per100g": 0.2,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Crema de leche",
+      "en": "Cream",
+      "pt": "Creme de leite"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 15.0,
+    "kcal_per100g": 340.0,
+    "protein_per100g": 2.8,
+    "carbs_per100g": 2.7,
+    "fat_per100g": 36.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 2.7,
+    "sodium_mg_per100g": 27.0,
+    "potassium_mg_per100g": 95.0,
+    "magnesium_mg_per100g": 7.0,
+    "calcium_mg_per100g": 66.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 0.6,
+    "vitamin_d_ug_per100g": 1.6,
+    "vitamin_b12_ug_per100g": 0.2,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Naranja",
+      "en": "Orange",
+      "pt": "Laranja"
+    },
+    "porcion": {
+      "es": "1 mediana",
+      "en": "1 medium",
+      "pt": "1 média"
+    },
+    "nova_group": null,
+    "default_serving_grams": 130.0,
+    "kcal_per100g": 47.0,
+    "protein_per100g": 0.9,
+    "carbs_per100g": 11.8,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 2.4,
+    "sugar_per100g": 9.4,
+    "sodium_mg_per100g": 0.0,
+    "potassium_mg_per100g": 181.0,
+    "magnesium_mg_per100g": 10.0,
+    "calcium_mg_per100g": 40.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 53.2,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Mandarina",
+      "en": "Mandarin",
+      "pt": "Tangerina"
+    },
+    "porcion": {
+      "es": "1 mediana",
+      "en": "1 medium",
+      "pt": "1 média"
+    },
+    "nova_group": null,
+    "default_serving_grams": 75.0,
+    "kcal_per100g": 53.0,
+    "protein_per100g": 0.8,
+    "carbs_per100g": 13.3,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 1.8,
+    "sugar_per100g": 10.6,
+    "sodium_mg_per100g": 2.0,
+    "potassium_mg_per100g": 166.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 37.0,
+    "iron_mg_per100g": 0.2,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 26.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Fresas",
+      "en": "Strawberries",
+      "pt": "Morangos"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 150.0,
+    "kcal_per100g": 32.0,
+    "protein_per100g": 0.7,
+    "carbs_per100g": 7.7,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 2.0,
+    "sugar_per100g": 4.9,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 153.0,
+    "magnesium_mg_per100g": 13.0,
+    "calcium_mg_per100g": 16.0,
+    "iron_mg_per100g": 0.4,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 58.8,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Mango",
+      "en": "Mango",
+      "pt": "Manga"
+    },
+    "porcion": {
+      "es": "1 taza en trozos",
+      "en": "1 cup, chopped",
+      "pt": "1 xícara em pedaços"
+    },
+    "nova_group": null,
+    "default_serving_grams": 165.0,
+    "kcal_per100g": 60.0,
+    "protein_per100g": 0.8,
+    "carbs_per100g": 15.0,
+    "fat_per100g": 0.4,
+    "fiber_per100g": 1.6,
+    "sugar_per100g": 13.7,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 168.0,
+    "magnesium_mg_per100g": 10.0,
+    "calcium_mg_per100g": 11.0,
+    "iron_mg_per100g": 0.2,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 36.4,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Papaya",
+      "en": "Papaya",
+      "pt": "Mamão"
+    },
+    "porcion": {
+      "es": "1 taza en trozos",
+      "en": "1 cup, chopped",
+      "pt": "1 xícara em pedaços"
+    },
+    "nova_group": null,
+    "default_serving_grams": 145.0,
+    "kcal_per100g": 43.0,
+    "protein_per100g": 0.5,
+    "carbs_per100g": 10.8,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 1.7,
+    "sugar_per100g": 7.8,
+    "sodium_mg_per100g": 8.0,
+    "potassium_mg_per100g": 182.0,
+    "magnesium_mg_per100g": 21.0,
+    "calcium_mg_per100g": 20.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 60.9,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Piña",
+      "en": "Pineapple",
+      "pt": "Abacaxi"
+    },
+    "porcion": {
+      "es": "1 taza en trozos",
+      "en": "1 cup, chopped",
+      "pt": "1 xícara em pedaços"
+    },
+    "nova_group": null,
+    "default_serving_grams": 165.0,
+    "kcal_per100g": 50.0,
+    "protein_per100g": 0.5,
+    "carbs_per100g": 13.1,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 1.4,
+    "sugar_per100g": 9.9,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 109.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 13.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 47.8,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Sandía",
+      "en": "Watermelon",
+      "pt": "Melancia"
+    },
+    "porcion": {
+      "es": "1 tajada",
+      "en": "1 slice",
+      "pt": "1 fatia"
+    },
+    "nova_group": null,
+    "default_serving_grams": 280.0,
+    "kcal_per100g": 30.0,
+    "protein_per100g": 0.6,
+    "carbs_per100g": 7.6,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 0.4,
+    "sugar_per100g": 6.2,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 112.0,
+    "magnesium_mg_per100g": 10.0,
+    "calcium_mg_per100g": 7.0,
+    "iron_mg_per100g": 0.2,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 8.1,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Melón",
+      "en": "Melon",
+      "pt": "Melão"
+    },
+    "porcion": {
+      "es": "1 taza en trozos",
+      "en": "1 cup, chopped",
+      "pt": "1 xícara em pedaços"
+    },
+    "nova_group": null,
+    "default_serving_grams": 160.0,
+    "kcal_per100g": 34.0,
+    "protein_per100g": 0.8,
+    "carbs_per100g": 8.2,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 0.9,
+    "sugar_per100g": 7.9,
+    "sodium_mg_per100g": 16.0,
+    "potassium_mg_per100g": 267.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 9.0,
+    "iron_mg_per100g": 0.2,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 36.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Uvas",
+      "en": "Grapes",
+      "pt": "Uvas"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 150.0,
+    "kcal_per100g": 69.0,
+    "protein_per100g": 0.7,
+    "carbs_per100g": 18.1,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 0.9,
+    "sugar_per100g": 15.5,
+    "sodium_mg_per100g": 2.0,
+    "potassium_mg_per100g": 191.0,
+    "magnesium_mg_per100g": 7.0,
+    "calcium_mg_per100g": 10.0,
+    "iron_mg_per100g": 0.4,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 3.2,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pera",
+      "en": "Pear",
+      "pt": "Pera"
+    },
+    "porcion": {
+      "es": "1 mediana",
+      "en": "1 medium",
+      "pt": "1 média"
+    },
+    "nova_group": null,
+    "default_serving_grams": 178.0,
+    "kcal_per100g": 57.0,
+    "protein_per100g": 0.4,
+    "carbs_per100g": 15.2,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 3.1,
+    "sugar_per100g": 9.8,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 116.0,
+    "magnesium_mg_per100g": 7.0,
+    "calcium_mg_per100g": 9.0,
+    "iron_mg_per100g": 0.2,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 4.3,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Durazno / melocotón",
+      "en": "Peach",
+      "pt": "Pêssego"
+    },
+    "porcion": {
+      "es": "1 mediano",
+      "en": "1 medium",
+      "pt": "1 médio"
+    },
+    "nova_group": null,
+    "default_serving_grams": 150.0,
+    "kcal_per100g": 39.0,
+    "protein_per100g": 0.9,
+    "carbs_per100g": 9.5,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 1.5,
+    "sugar_per100g": 8.4,
+    "sodium_mg_per100g": 0.0,
+    "potassium_mg_per100g": 190.0,
+    "magnesium_mg_per100g": 9.0,
+    "calcium_mg_per100g": 6.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 6.6,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Kiwi",
+      "en": "Kiwi",
+      "pt": "Kiwi"
+    },
+    "porcion": {
+      "es": "1 unidad",
+      "en": "1 unit",
+      "pt": "1 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 75.0,
+    "kcal_per100g": 61.0,
+    "protein_per100g": 1.1,
+    "carbs_per100g": 14.7,
+    "fat_per100g": 0.5,
+    "fiber_per100g": 3.0,
+    "sugar_per100g": 9.0,
+    "sodium_mg_per100g": 3.0,
+    "potassium_mg_per100g": 312.0,
+    "magnesium_mg_per100g": 17.0,
+    "calcium_mg_per100g": 34.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 92.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Arándanos",
+      "en": "Blueberries",
+      "pt": "Mirtilos"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 148.0,
+    "kcal_per100g": 57.0,
+    "protein_per100g": 0.7,
+    "carbs_per100g": 14.5,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 2.4,
+    "sugar_per100g": 10.0,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 77.0,
+    "magnesium_mg_per100g": 6.0,
+    "calcium_mg_per100g": 6.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 9.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Moras",
+      "en": "Blackberries",
+      "pt": "Amoras"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 144.0,
+    "kcal_per100g": 43.0,
+    "protein_per100g": 1.4,
+    "carbs_per100g": 9.6,
+    "fat_per100g": 0.5,
+    "fiber_per100g": 5.3,
+    "sugar_per100g": 4.9,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 162.0,
+    "magnesium_mg_per100g": 20.0,
+    "calcium_mg_per100g": 29.0,
+    "iron_mg_per100g": 0.6,
+    "zinc_mg_per100g": 0.5,
+    "vitamin_c_mg_per100g": 21.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Guayaba",
+      "en": "Guava",
+      "pt": "Goiaba"
+    },
+    "porcion": {
+      "es": "1 unidad",
+      "en": "1 unit",
+      "pt": "1 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 55.0,
+    "kcal_per100g": 68.0,
+    "protein_per100g": 2.6,
+    "carbs_per100g": 14.3,
+    "fat_per100g": 1.0,
+    "fiber_per100g": 5.4,
+    "sugar_per100g": 8.9,
+    "sodium_mg_per100g": 2.0,
+    "potassium_mg_per100g": 417.0,
+    "magnesium_mg_per100g": 22.0,
+    "calcium_mg_per100g": 18.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 228.3,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Maracuyá (pulpa)",
+      "en": "Passion fruit (pulp)",
+      "pt": "Maracujá (polpa)"
+    },
+    "porcion": {
+      "es": "1 unidad",
+      "en": "1 unit",
+      "pt": "1 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 50.0,
+    "kcal_per100g": 97.0,
+    "protein_per100g": 2.2,
+    "carbs_per100g": 23.4,
+    "fat_per100g": 0.7,
+    "fiber_per100g": 10.4,
+    "sugar_per100g": 11.2,
+    "sodium_mg_per100g": 28.0,
+    "potassium_mg_per100g": 348.0,
+    "magnesium_mg_per100g": 29.0,
+    "calcium_mg_per100g": 12.0,
+    "iron_mg_per100g": 1.6,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 30.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Limón (jugo)",
+      "en": "Lemon (juice)",
+      "pt": "Limão (suco)"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 15.0,
+    "kcal_per100g": 22.0,
+    "protein_per100g": 0.4,
+    "carbs_per100g": 6.9,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 0.3,
+    "sugar_per100g": 2.5,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 103.0,
+    "magnesium_mg_per100g": 6.0,
+    "calcium_mg_per100g": 6.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 38.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Plátano maduro frito (tajadas)",
+      "en": "Fried ripe plantain",
+      "pt": "Banana-da-terra madura frita"
+    },
+    "porcion": {
+      "es": "1/2 plátano",
+      "en": "1/2 plantain",
+      "pt": "1/2 banana-da-terra"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 236.0,
+    "protein_per100g": 1.5,
+    "carbs_per100g": 38.0,
+    "fat_per100g": 9.2,
+    "fiber_per100g": 2.3,
+    "sugar_per100g": 18.0,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 482.0,
+    "magnesium_mg_per100g": 32.0,
+    "calcium_mg_per100g": 4.0,
+    "iron_mg_per100g": 0.6,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 10.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Plátano verde cocido",
+      "en": "Boiled green plantain",
+      "pt": "Banana-da-terra verde cozida"
+    },
+    "porcion": {
+      "es": "1/2 plátano",
+      "en": "1/2 plantain",
+      "pt": "1/2 banana-da-terra"
+    },
+    "nova_group": null,
+    "default_serving_grams": 120.0,
+    "kcal_per100g": 116.0,
+    "protein_per100g": 0.8,
+    "carbs_per100g": 31.2,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 2.3,
+    "sugar_per100g": 14.0,
+    "sodium_mg_per100g": 5.0,
+    "potassium_mg_per100g": 465.0,
+    "magnesium_mg_per100g": 32.0,
+    "calcium_mg_per100g": 2.0,
+    "iron_mg_per100g": 0.6,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 10.9,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Patacón (plátano verde frito)",
+      "en": "Tostones (fried green plantain)",
+      "pt": "Banana-da-terra verde frita"
+    },
+    "porcion": {
+      "es": "2 patacones",
+      "en": "2 tostones",
+      "pt": "2 unidades"
+    },
+    "nova_group": null,
+    "default_serving_grams": 80.0,
+    "kcal_per100g": 309.0,
+    "protein_per100g": 1.5,
+    "carbs_per100g": 50.0,
+    "fat_per100g": 11.8,
+    "fiber_per100g": 3.5,
+    "sugar_per100g": 3.0,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 482.0,
+    "magnesium_mg_per100g": 32.0,
+    "calcium_mg_per100g": 4.0,
+    "iron_mg_per100g": 0.6,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 10.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Coco rallado",
+      "en": "Shredded coconut",
+      "pt": "Coco ralado"
+    },
+    "porcion": {
+      "es": "2 cucharadas",
+      "en": "2 tablespoons",
+      "pt": "2 colheres de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 20.0,
+    "kcal_per100g": 354.0,
+    "protein_per100g": 3.3,
+    "carbs_per100g": 15.2,
+    "fat_per100g": 33.5,
+    "fiber_per100g": 9.0,
+    "sugar_per100g": 6.2,
+    "sodium_mg_per100g": 20.0,
+    "potassium_mg_per100g": 356.0,
+    "magnesium_mg_per100g": 32.0,
+    "calcium_mg_per100g": 14.0,
+    "iron_mg_per100g": 2.4,
+    "zinc_mg_per100g": 1.1,
+    "vitamin_c_mg_per100g": 3.3,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Dátiles",
+      "en": "Dates",
+      "pt": "Tâmaras"
+    },
+    "porcion": {
+      "es": "3 unidades",
+      "en": "3 units",
+      "pt": "3 unidades"
+    },
+    "nova_group": null,
+    "default_serving_grams": 24.0,
+    "kcal_per100g": 282.0,
+    "protein_per100g": 2.5,
+    "carbs_per100g": 75.0,
+    "fat_per100g": 0.4,
+    "fiber_per100g": 8.0,
+    "sugar_per100g": 63.0,
+    "sodium_mg_per100g": 2.0,
+    "potassium_mg_per100g": 656.0,
+    "magnesium_mg_per100g": 43.0,
+    "calcium_mg_per100g": 39.0,
+    "iron_mg_per100g": 1.0,
+    "zinc_mg_per100g": 0.3,
+    "vitamin_c_mg_per100g": 0.4,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Uvas pasas",
+      "en": "Raisins",
+      "pt": "Uvas-passas"
+    },
+    "porcion": {
+      "es": "1 puñado",
+      "en": "1 handful",
+      "pt": "1 punhado"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 299.0,
+    "protein_per100g": 3.1,
+    "carbs_per100g": 79.0,
+    "fat_per100g": 0.5,
+    "fiber_per100g": 3.7,
+    "sugar_per100g": 59.0,
+    "sodium_mg_per100g": 11.0,
+    "potassium_mg_per100g": 749.0,
+    "magnesium_mg_per100g": 32.0,
+    "calcium_mg_per100g": 50.0,
+    "iron_mg_per100g": 1.9,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 2.3,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Tomate",
+      "en": "Tomato",
+      "pt": "Tomate"
+    },
+    "porcion": {
+      "es": "1 mediano",
+      "en": "1 medium",
+      "pt": "1 médio"
+    },
+    "nova_group": null,
+    "default_serving_grams": 120.0,
+    "kcal_per100g": 18.0,
+    "protein_per100g": 0.9,
+    "carbs_per100g": 3.9,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 1.2,
+    "sugar_per100g": 2.6,
+    "sodium_mg_per100g": 5.0,
+    "potassium_mg_per100g": 237.0,
+    "magnesium_mg_per100g": 11.0,
+    "calcium_mg_per100g": 10.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 13.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Lechuga",
+      "en": "Lettuce",
+      "pt": "Alface"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 50.0,
+    "kcal_per100g": 17.0,
+    "protein_per100g": 1.2,
+    "carbs_per100g": 3.3,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 2.1,
+    "sugar_per100g": 1.2,
+    "sodium_mg_per100g": 8.0,
+    "potassium_mg_per100g": 247.0,
+    "magnesium_mg_per100g": 14.0,
+    "calcium_mg_per100g": 33.0,
+    "iron_mg_per100g": 1.0,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 4.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Zanahoria cruda",
+      "en": "Raw carrot",
+      "pt": "Cenoura crua"
+    },
+    "porcion": {
+      "es": "1 mediana",
+      "en": "1 medium",
+      "pt": "1 média"
+    },
+    "nova_group": null,
+    "default_serving_grams": 60.0,
+    "kcal_per100g": 41.0,
+    "protein_per100g": 0.9,
+    "carbs_per100g": 9.6,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 2.8,
+    "sugar_per100g": 4.7,
+    "sodium_mg_per100g": 69.0,
+    "potassium_mg_per100g": 320.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 33.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 5.9,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Cebolla",
+      "en": "Onion",
+      "pt": "Cebola"
+    },
+    "porcion": {
+      "es": "1/2 unidad",
+      "en": "1/2 unit",
+      "pt": "1/2 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 50.0,
+    "kcal_per100g": 40.0,
+    "protein_per100g": 1.1,
+    "carbs_per100g": 9.3,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 1.7,
+    "sugar_per100g": 4.2,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 146.0,
+    "magnesium_mg_per100g": 10.0,
+    "calcium_mg_per100g": 23.0,
+    "iron_mg_per100g": 0.2,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 7.4,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pimentón rojo",
+      "en": "Red bell pepper",
+      "pt": "Pimentão vermelho"
+    },
+    "porcion": {
+      "es": "1/2 unidad",
+      "en": "1/2 unit",
+      "pt": "1/2 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 75.0,
+    "kcal_per100g": 31.0,
+    "protein_per100g": 1.0,
+    "carbs_per100g": 6.0,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 2.1,
+    "sugar_per100g": 4.2,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 211.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 7.0,
+    "iron_mg_per100g": 0.4,
+    "zinc_mg_per100g": 0.3,
+    "vitamin_c_mg_per100g": 127.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pepino",
+      "en": "Cucumber",
+      "pt": "Pepino"
+    },
+    "porcion": {
+      "es": "1/2 unidad",
+      "en": "1/2 unit",
+      "pt": "1/2 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 15.0,
+    "protein_per100g": 0.7,
+    "carbs_per100g": 3.6,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 0.5,
+    "sugar_per100g": 1.7,
+    "sodium_mg_per100g": 2.0,
+    "potassium_mg_per100g": 147.0,
+    "magnesium_mg_per100g": 13.0,
+    "calcium_mg_per100g": 16.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 2.8,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Calabacín",
+      "en": "Zucchini",
+      "pt": "Abobrinha"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 120.0,
+    "kcal_per100g": 17.0,
+    "protein_per100g": 1.2,
+    "carbs_per100g": 3.1,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 1.0,
+    "sugar_per100g": 2.5,
+    "sodium_mg_per100g": 8.0,
+    "potassium_mg_per100g": 261.0,
+    "magnesium_mg_per100g": 18.0,
+    "calcium_mg_per100g": 16.0,
+    "iron_mg_per100g": 0.4,
+    "zinc_mg_per100g": 0.3,
+    "vitamin_c_mg_per100g": 17.9,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Champiñones",
+      "en": "Mushrooms",
+      "pt": "Cogumelos"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 70.0,
+    "kcal_per100g": 22.0,
+    "protein_per100g": 3.1,
+    "carbs_per100g": 3.3,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 1.0,
+    "sugar_per100g": 2.0,
+    "sodium_mg_per100g": 5.0,
+    "potassium_mg_per100g": 318.0,
+    "magnesium_mg_per100g": 9.0,
+    "calcium_mg_per100g": 3.0,
+    "iron_mg_per100g": 0.5,
+    "zinc_mg_per100g": 0.5,
+    "vitamin_c_mg_per100g": 2.1,
+    "vitamin_d_ug_per100g": 0.2,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Coliflor cocida",
+      "en": "Cooked cauliflower",
+      "pt": "Couve-flor cozida"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 124.0,
+    "kcal_per100g": 23.0,
+    "protein_per100g": 1.8,
+    "carbs_per100g": 4.1,
+    "fat_per100g": 0.5,
+    "fiber_per100g": 2.3,
+    "sugar_per100g": 2.1,
+    "sodium_mg_per100g": 15.0,
+    "potassium_mg_per100g": 142.0,
+    "magnesium_mg_per100g": 9.0,
+    "calcium_mg_per100g": 16.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 44.3,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Habichuelas / ejotes cocidos",
+      "en": "Cooked green beans",
+      "pt": "Vagem cozida"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 125.0,
+    "kcal_per100g": 35.0,
+    "protein_per100g": 1.9,
+    "carbs_per100g": 7.9,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 3.2,
+    "sugar_per100g": 3.6,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 146.0,
+    "magnesium_mg_per100g": 18.0,
+    "calcium_mg_per100g": 44.0,
+    "iron_mg_per100g": 0.7,
+    "zinc_mg_per100g": 0.3,
+    "vitamin_c_mg_per100g": 9.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Remolacha cocida",
+      "en": "Cooked beet",
+      "pt": "Beterraba cozida"
+    },
+    "porcion": {
+      "es": "1/2 taza",
+      "en": "1/2 cup",
+      "pt": "1/2 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 85.0,
+    "kcal_per100g": 44.0,
+    "protein_per100g": 1.7,
+    "carbs_per100g": 10.0,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 2.0,
+    "sugar_per100g": 8.0,
+    "sodium_mg_per100g": 77.0,
+    "potassium_mg_per100g": 305.0,
+    "magnesium_mg_per100g": 23.0,
+    "calcium_mg_per100g": 16.0,
+    "iron_mg_per100g": 0.8,
+    "zinc_mg_per100g": 0.4,
+    "vitamin_c_mg_per100g": 3.6,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Ahuyama / calabaza cocida",
+      "en": "Cooked pumpkin",
+      "pt": "Abóbora cozida"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 245.0,
+    "kcal_per100g": 20.0,
+    "protein_per100g": 0.7,
+    "carbs_per100g": 4.9,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 1.1,
+    "sugar_per100g": 2.1,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 230.0,
+    "magnesium_mg_per100g": 9.0,
+    "calcium_mg_per100g": 15.0,
+    "iron_mg_per100g": 0.6,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 4.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Kale / col rizada",
+      "en": "Kale",
+      "pt": "Couve kale"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 40.0,
+    "kcal_per100g": 35.0,
+    "protein_per100g": 2.9,
+    "carbs_per100g": 4.4,
+    "fat_per100g": 1.5,
+    "fiber_per100g": 4.1,
+    "sugar_per100g": 1.0,
+    "sodium_mg_per100g": 53.0,
+    "potassium_mg_per100g": 348.0,
+    "magnesium_mg_per100g": 33.0,
+    "calcium_mg_per100g": 254.0,
+    "iron_mg_per100g": 1.6,
+    "zinc_mg_per100g": 0.4,
+    "vitamin_c_mg_per100g": 93.4,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Repollo",
+      "en": "Cabbage",
+      "pt": "Repolho"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 70.0,
+    "kcal_per100g": 25.0,
+    "protein_per100g": 1.3,
+    "carbs_per100g": 5.8,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 2.5,
+    "sugar_per100g": 3.2,
+    "sodium_mg_per100g": 18.0,
+    "potassium_mg_per100g": 170.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 40.0,
+    "iron_mg_per100g": 0.5,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 36.6,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Mazorca de maíz cocida",
+      "en": "Boiled corn on the cob",
+      "pt": "Espiga de milho cozida"
+    },
+    "porcion": {
+      "es": "1 mazorca",
+      "en": "1 cob",
+      "pt": "1 espiga"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 96.0,
+    "protein_per100g": 3.4,
+    "carbs_per100g": 21.0,
+    "fat_per100g": 1.5,
+    "fiber_per100g": 2.4,
+    "sugar_per100g": 4.5,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 218.0,
+    "magnesium_mg_per100g": 26.0,
+    "calcium_mg_per100g": 3.0,
+    "iron_mg_per100g": 0.5,
+    "zinc_mg_per100g": 0.6,
+    "vitamin_c_mg_per100g": 5.5,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Espárragos cocidos",
+      "en": "Cooked asparagus",
+      "pt": "Aspargos cozidos"
+    },
+    "porcion": {
+      "es": "6 unidades",
+      "en": "6 units",
+      "pt": "6 unidades"
+    },
+    "nova_group": null,
+    "default_serving_grams": 90.0,
+    "kcal_per100g": 22.0,
+    "protein_per100g": 2.4,
+    "carbs_per100g": 4.1,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 2.0,
+    "sugar_per100g": 1.3,
+    "sodium_mg_per100g": 14.0,
+    "potassium_mg_per100g": 224.0,
+    "magnesium_mg_per100g": 14.0,
+    "calcium_mg_per100g": 23.0,
+    "iron_mg_per100g": 0.9,
+    "zinc_mg_per100g": 0.6,
+    "vitamin_c_mg_per100g": 7.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Berenjena cocida",
+      "en": "Cooked eggplant",
+      "pt": "Berinjela cozida"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 35.0,
+    "protein_per100g": 0.8,
+    "carbs_per100g": 8.7,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 2.5,
+    "sugar_per100g": 3.2,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 123.0,
+    "magnesium_mg_per100g": 11.0,
+    "calcium_mg_per100g": 6.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 1.3,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Arvejas cocidas",
+      "en": "Cooked peas",
+      "pt": "Ervilhas cozidas"
+    },
+    "porcion": {
+      "es": "1/2 taza",
+      "en": "1/2 cup",
+      "pt": "1/2 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 80.0,
+    "kcal_per100g": 84.0,
+    "protein_per100g": 5.4,
+    "carbs_per100g": 15.6,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 5.5,
+    "sugar_per100g": 5.9,
+    "sodium_mg_per100g": 3.0,
+    "potassium_mg_per100g": 271.0,
+    "magnesium_mg_per100g": 39.0,
+    "calcium_mg_per100g": 27.0,
+    "iron_mg_per100g": 1.5,
+    "zinc_mg_per100g": 1.2,
+    "vitamin_c_mg_per100g": 14.2,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Ajo",
+      "en": "Garlic",
+      "pt": "Alho"
+    },
+    "porcion": {
+      "es": "1 diente",
+      "en": "1 clove",
+      "pt": "1 dente"
+    },
+    "nova_group": null,
+    "default_serving_grams": 5.0,
+    "kcal_per100g": 149.0,
+    "protein_per100g": 6.4,
+    "carbs_per100g": 33.0,
+    "fat_per100g": 0.5,
+    "fiber_per100g": 2.1,
+    "sugar_per100g": 1.0,
+    "sodium_mg_per100g": 17.0,
+    "potassium_mg_per100g": 401.0,
+    "magnesium_mg_per100g": 25.0,
+    "calcium_mg_per100g": 181.0,
+    "iron_mg_per100g": 1.7,
+    "zinc_mg_per100g": 1.2,
+    "vitamin_c_mg_per100g": 31.2,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Batata / camote al horno",
+      "en": "Baked sweet potato",
+      "pt": "Batata-doce assada"
+    },
+    "porcion": {
+      "es": "1 mediana",
+      "en": "1 medium",
+      "pt": "1 média"
+    },
+    "nova_group": null,
+    "default_serving_grams": 150.0,
+    "kcal_per100g": 90.0,
+    "protein_per100g": 2.0,
+    "carbs_per100g": 20.7,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 3.3,
+    "sugar_per100g": 6.5,
+    "sodium_mg_per100g": 36.0,
+    "potassium_mg_per100g": 475.0,
+    "magnesium_mg_per100g": 27.0,
+    "calcium_mg_per100g": 38.0,
+    "iron_mg_per100g": 0.7,
+    "zinc_mg_per100g": 0.3,
+    "vitamin_c_mg_per100g": 19.6,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Yuca cocida",
+      "en": "Boiled cassava",
+      "pt": "Mandioca cozida"
+    },
+    "porcion": {
+      "es": "1 trozo",
+      "en": "1 piece",
+      "pt": "1 pedaço"
+    },
+    "nova_group": null,
+    "default_serving_grams": 150.0,
+    "kcal_per100g": 112.0,
+    "protein_per100g": 1.4,
+    "carbs_per100g": 27.0,
+    "fat_per100g": 0.3,
+    "fiber_per100g": 1.4,
+    "sugar_per100g": 1.7,
+    "sodium_mg_per100g": 8.0,
+    "potassium_mg_per100g": 271.0,
+    "magnesium_mg_per100g": 21.0,
+    "calcium_mg_per100g": 16.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.3,
+    "vitamin_c_mg_per100g": 20.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Papas a la francesa",
+      "en": "French fries",
+      "pt": "Batata frita"
+    },
+    "porcion": {
+      "es": "porción mediana",
+      "en": "medium serving",
+      "pt": "porção média"
+    },
+    "nova_group": null,
+    "default_serving_grams": 117.0,
+    "kcal_per100g": 312.0,
+    "protein_per100g": 3.4,
+    "carbs_per100g": 41.0,
+    "fat_per100g": 15.0,
+    "fiber_per100g": 3.8,
+    "sugar_per100g": 0.3,
+    "sodium_mg_per100g": 210.0,
+    "potassium_mg_per100g": 579.0,
+    "magnesium_mg_per100g": 35.0,
+    "calcium_mg_per100g": 18.0,
+    "iron_mg_per100g": 0.8,
+    "zinc_mg_per100g": 0.5,
+    "vitamin_c_mg_per100g": 4.7,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Puré de papa",
+      "en": "Mashed potatoes",
+      "pt": "Purê de batata"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 210.0,
+    "kcal_per100g": 106.0,
+    "protein_per100g": 1.9,
+    "carbs_per100g": 15.8,
+    "fat_per100g": 4.2,
+    "fiber_per100g": 1.5,
+    "sugar_per100g": 1.5,
+    "sodium_mg_per100g": 300.0,
+    "potassium_mg_per100g": 284.0,
+    "magnesium_mg_per100g": 18.0,
+    "calcium_mg_per100g": 25.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.3,
+    "vitamin_c_mg_per100g": 6.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Arroz integral cocido",
+      "en": "Cooked brown rice",
+      "pt": "Arroz integral cozido"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 195.0,
+    "kcal_per100g": 123.0,
+    "protein_per100g": 2.7,
+    "carbs_per100g": 25.6,
+    "fat_per100g": 1.0,
+    "fiber_per100g": 1.6,
+    "sugar_per100g": 0.2,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 86.0,
+    "magnesium_mg_per100g": 39.0,
+    "calcium_mg_per100g": 3.0,
+    "iron_mg_per100g": 0.6,
+    "zinc_mg_per100g": 0.7,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Quinoa cocida",
+      "en": "Cooked quinoa",
+      "pt": "Quinoa cozida"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 185.0,
+    "kcal_per100g": 120.0,
+    "protein_per100g": 4.4,
+    "carbs_per100g": 21.3,
+    "fat_per100g": 1.9,
+    "fiber_per100g": 2.8,
+    "sugar_per100g": 0.9,
+    "sodium_mg_per100g": 7.0,
+    "potassium_mg_per100g": 172.0,
+    "magnesium_mg_per100g": 64.0,
+    "calcium_mg_per100g": 17.0,
+    "iron_mg_per100g": 1.5,
+    "zinc_mg_per100g": 1.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pasta cocida",
+      "en": "Cooked pasta",
+      "pt": "Macarrão cozido"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 140.0,
+    "kcal_per100g": 158.0,
+    "protein_per100g": 5.8,
+    "carbs_per100g": 30.9,
+    "fat_per100g": 0.9,
+    "fiber_per100g": 1.8,
+    "sugar_per100g": 0.6,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 44.0,
+    "magnesium_mg_per100g": 18.0,
+    "calcium_mg_per100g": 7.0,
+    "iron_mg_per100g": 1.3,
+    "zinc_mg_per100g": 0.5,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pasta integral cocida",
+      "en": "Cooked whole wheat pasta",
+      "pt": "Macarrão integral cozido"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 140.0,
+    "kcal_per100g": 149.0,
+    "protein_per100g": 6.0,
+    "carbs_per100g": 30.0,
+    "fat_per100g": 1.7,
+    "fiber_per100g": 3.9,
+    "sugar_per100g": 0.8,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 96.0,
+    "magnesium_mg_per100g": 53.0,
+    "calcium_mg_per100g": 13.0,
+    "iron_mg_per100g": 1.7,
+    "zinc_mg_per100g": 1.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Cuscús cocido",
+      "en": "Cooked couscous",
+      "pt": "Cuscuz marroquino cozido"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 157.0,
+    "kcal_per100g": 112.0,
+    "protein_per100g": 3.8,
+    "carbs_per100g": 23.2,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 1.4,
+    "sugar_per100g": 0.1,
+    "sodium_mg_per100g": 5.0,
+    "potassium_mg_per100g": 58.0,
+    "magnesium_mg_per100g": 8.0,
+    "calcium_mg_per100g": 8.0,
+    "iron_mg_per100g": 0.4,
+    "zinc_mg_per100g": 0.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pan blanco de molde",
+      "en": "White sandwich bread",
+      "pt": "Pão de forma branco"
+    },
+    "porcion": {
+      "es": "1 rebanada",
+      "en": "1 slice",
+      "pt": "1 fatia"
+    },
+    "nova_group": null,
+    "default_serving_grams": 28.0,
+    "kcal_per100g": 265.0,
+    "protein_per100g": 9.0,
+    "carbs_per100g": 49.0,
+    "fat_per100g": 3.2,
+    "fiber_per100g": 2.7,
+    "sugar_per100g": 5.0,
+    "sodium_mg_per100g": 491.0,
+    "potassium_mg_per100g": 115.0,
+    "magnesium_mg_per100g": 25.0,
+    "calcium_mg_per100g": 151.0,
+    "iron_mg_per100g": 3.6,
+    "zinc_mg_per100g": 0.7,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pan integral de molde",
+      "en": "Whole wheat sandwich bread",
+      "pt": "Pão de forma integral"
+    },
+    "porcion": {
+      "es": "1 rebanada",
+      "en": "1 slice",
+      "pt": "1 fatia"
+    },
+    "nova_group": null,
+    "default_serving_grams": 32.0,
+    "kcal_per100g": 252.0,
+    "protein_per100g": 12.4,
+    "carbs_per100g": 43.0,
+    "fat_per100g": 3.5,
+    "fiber_per100g": 6.0,
+    "sugar_per100g": 4.4,
+    "sodium_mg_per100g": 450.0,
+    "potassium_mg_per100g": 250.0,
+    "magnesium_mg_per100g": 76.0,
+    "calcium_mg_per100g": 161.0,
+    "iron_mg_per100g": 2.5,
+    "zinc_mg_per100g": 1.8,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pan francés / baguette",
+      "en": "Baguette",
+      "pt": "Baguete"
+    },
+    "porcion": {
+      "es": "1 trozo",
+      "en": "1 piece",
+      "pt": "1 pedaço"
+    },
+    "nova_group": null,
+    "default_serving_grams": 60.0,
+    "kcal_per100g": 274.0,
+    "protein_per100g": 10.8,
+    "carbs_per100g": 52.0,
+    "fat_per100g": 2.4,
+    "fiber_per100g": 2.2,
+    "sugar_per100g": 5.0,
+    "sodium_mg_per100g": 600.0,
+    "potassium_mg_per100g": 117.0,
+    "magnesium_mg_per100g": 27.0,
+    "calcium_mg_per100g": 52.0,
+    "iron_mg_per100g": 3.6,
+    "zinc_mg_per100g": 0.9,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Croissant",
+      "en": "Croissant",
+      "pt": "Croissant"
+    },
+    "porcion": {
+      "es": "1 unidad",
+      "en": "1 unit",
+      "pt": "1 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 57.0,
+    "kcal_per100g": 406.0,
+    "protein_per100g": 8.2,
+    "carbs_per100g": 45.8,
+    "fat_per100g": 21.0,
+    "fiber_per100g": 2.6,
+    "sugar_per100g": 11.3,
+    "sodium_mg_per100g": 467.0,
+    "potassium_mg_per100g": 118.0,
+    "magnesium_mg_per100g": 16.0,
+    "calcium_mg_per100g": 37.0,
+    "iron_mg_per100g": 2.0,
+    "zinc_mg_per100g": 0.8,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Tortilla de maíz",
+      "en": "Corn tortilla",
+      "pt": "Tortilha de milho"
+    },
+    "porcion": {
+      "es": "1 unidad",
+      "en": "1 unit",
+      "pt": "1 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 26.0,
+    "kcal_per100g": 218.0,
+    "protein_per100g": 5.7,
+    "carbs_per100g": 44.6,
+    "fat_per100g": 2.9,
+    "fiber_per100g": 6.3,
+    "sugar_per100g": 0.9,
+    "sodium_mg_per100g": 45.0,
+    "potassium_mg_per100g": 186.0,
+    "magnesium_mg_per100g": 72.0,
+    "calcium_mg_per100g": 81.0,
+    "iron_mg_per100g": 1.2,
+    "zinc_mg_per100g": 0.9,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Tortilla de trigo",
+      "en": "Flour tortilla",
+      "pt": "Tortilha de trigo"
+    },
+    "porcion": {
+      "es": "1 unidad",
+      "en": "1 unit",
+      "pt": "1 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 45.0,
+    "kcal_per100g": 306.0,
+    "protein_per100g": 8.0,
+    "carbs_per100g": 50.0,
+    "fat_per100g": 8.0,
+    "fiber_per100g": 3.5,
+    "sugar_per100g": 2.8,
+    "sodium_mg_per100g": 736.0,
+    "potassium_mg_per100g": 125.0,
+    "magnesium_mg_per100g": 23.0,
+    "calcium_mg_per100g": 128.0,
+    "iron_mg_per100g": 3.6,
+    "zinc_mg_per100g": 0.6,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Galletas de soda",
+      "en": "Saltine crackers",
+      "pt": "Bolachas de água e sal"
+    },
+    "porcion": {
+      "es": "4 unidades",
+      "en": "4 units",
+      "pt": "4 unidades"
+    },
+    "nova_group": null,
+    "default_serving_grams": 12.0,
+    "kcal_per100g": 421.0,
+    "protein_per100g": 9.5,
+    "carbs_per100g": 74.0,
+    "fat_per100g": 8.8,
+    "fiber_per100g": 2.7,
+    "sugar_per100g": 1.3,
+    "sodium_mg_per100g": 950.0,
+    "potassium_mg_per100g": 165.0,
+    "magnesium_mg_per100g": 27.0,
+    "calcium_mg_per100g": 22.0,
+    "iron_mg_per100g": 5.4,
+    "zinc_mg_per100g": 0.8,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Galleta de arroz inflado",
+      "en": "Puffed rice cake",
+      "pt": "Biscoito de arroz"
+    },
+    "porcion": {
+      "es": "1 unidad",
+      "en": "1 unit",
+      "pt": "1 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 9.0,
+    "kcal_per100g": 387.0,
+    "protein_per100g": 8.2,
+    "carbs_per100g": 81.5,
+    "fat_per100g": 2.8,
+    "fiber_per100g": 4.2,
+    "sugar_per100g": 0.9,
+    "sodium_mg_per100g": 29.0,
+    "potassium_mg_per100g": 290.0,
+    "magnesium_mg_per100g": 131.0,
+    "calcium_mg_per100g": 11.0,
+    "iron_mg_per100g": 1.5,
+    "zinc_mg_per100g": 3.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Granola",
+      "en": "Granola",
+      "pt": "Granola"
+    },
+    "porcion": {
+      "es": "1/2 taza",
+      "en": "1/2 cup",
+      "pt": "1/2 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 45.0,
+    "kcal_per100g": 471.0,
+    "protein_per100g": 10.5,
+    "carbs_per100g": 64.0,
+    "fat_per100g": 20.0,
+    "fiber_per100g": 7.0,
+    "sugar_per100g": 24.0,
+    "sodium_mg_per100g": 26.0,
+    "potassium_mg_per100g": 380.0,
+    "magnesium_mg_per100g": 95.0,
+    "calcium_mg_per100g": 76.0,
+    "iron_mg_per100g": 3.4,
+    "zinc_mg_per100g": 2.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Cereal de hojuelas de maíz",
+      "en": "Corn flakes",
+      "pt": "Flocos de milho"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 357.0,
+    "protein_per100g": 7.5,
+    "carbs_per100g": 84.0,
+    "fat_per100g": 0.4,
+    "fiber_per100g": 3.3,
+    "sugar_per100g": 9.5,
+    "sodium_mg_per100g": 729.0,
+    "potassium_mg_per100g": 102.0,
+    "magnesium_mg_per100g": 22.0,
+    "calcium_mg_per100g": 5.0,
+    "iron_mg_per100g": 18.0,
+    "zinc_mg_per100g": 0.4,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Avena cocida en agua",
+      "en": "Oatmeal cooked in water",
+      "pt": "Mingau de aveia com água"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 234.0,
+    "kcal_per100g": 71.0,
+    "protein_per100g": 2.5,
+    "carbs_per100g": 12.0,
+    "fat_per100g": 1.5,
+    "fiber_per100g": 1.7,
+    "sugar_per100g": 0.3,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 70.0,
+    "magnesium_mg_per100g": 27.0,
+    "calcium_mg_per100g": 9.0,
+    "iron_mg_per100g": 0.9,
+    "zinc_mg_per100g": 1.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Frijoles rojos cocidos",
+      "en": "Cooked red beans",
+      "pt": "Feijão vermelho cozido"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 170.0,
+    "kcal_per100g": 127.0,
+    "protein_per100g": 8.7,
+    "carbs_per100g": 22.8,
+    "fat_per100g": 0.5,
+    "fiber_per100g": 7.4,
+    "sugar_per100g": 0.3,
+    "sodium_mg_per100g": 2.0,
+    "potassium_mg_per100g": 405.0,
+    "magnesium_mg_per100g": 45.0,
+    "calcium_mg_per100g": 28.0,
+    "iron_mg_per100g": 2.9,
+    "zinc_mg_per100g": 1.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Frijoles negros cocidos",
+      "en": "Cooked black beans",
+      "pt": "Feijão preto cozido"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 170.0,
+    "kcal_per100g": 132.0,
+    "protein_per100g": 8.9,
+    "carbs_per100g": 23.7,
+    "fat_per100g": 0.5,
+    "fiber_per100g": 8.7,
+    "sugar_per100g": 0.3,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 355.0,
+    "magnesium_mg_per100g": 70.0,
+    "calcium_mg_per100g": 27.0,
+    "iron_mg_per100g": 2.1,
+    "zinc_mg_per100g": 1.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Garbanzos cocidos",
+      "en": "Cooked chickpeas",
+      "pt": "Grão-de-bico cozido"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 160.0,
+    "kcal_per100g": 164.0,
+    "protein_per100g": 8.9,
+    "carbs_per100g": 27.4,
+    "fat_per100g": 2.6,
+    "fiber_per100g": 7.6,
+    "sugar_per100g": 4.8,
+    "sodium_mg_per100g": 7.0,
+    "potassium_mg_per100g": 291.0,
+    "magnesium_mg_per100g": 48.0,
+    "calcium_mg_per100g": 49.0,
+    "iron_mg_per100g": 2.9,
+    "zinc_mg_per100g": 1.5,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Hummus",
+      "en": "Hummus",
+      "pt": "Homus"
+    },
+    "porcion": {
+      "es": "2 cucharadas",
+      "en": "2 tablespoons",
+      "pt": "2 colheres de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 166.0,
+    "protein_per100g": 7.9,
+    "carbs_per100g": 14.3,
+    "fat_per100g": 9.6,
+    "fiber_per100g": 6.0,
+    "sugar_per100g": 0.3,
+    "sodium_mg_per100g": 379.0,
+    "potassium_mg_per100g": 228.0,
+    "magnesium_mg_per100g": 71.0,
+    "calcium_mg_per100g": 38.0,
+    "iron_mg_per100g": 2.4,
+    "zinc_mg_per100g": 1.8,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Tofu firme",
+      "en": "Firm tofu",
+      "pt": "Tofu firme"
+    },
+    "porcion": {
+      "es": "100 g",
+      "en": "100 g",
+      "pt": "100 g"
+    },
+    "nova_group": null,
+    "default_serving_grams": 100.0,
+    "kcal_per100g": 144.0,
+    "protein_per100g": 17.3,
+    "carbs_per100g": 2.8,
+    "fat_per100g": 8.7,
+    "fiber_per100g": 2.3,
+    "sugar_per100g": 0.6,
+    "sodium_mg_per100g": 14.0,
+    "potassium_mg_per100g": 237.0,
+    "magnesium_mg_per100g": 58.0,
+    "calcium_mg_per100g": 683.0,
+    "iron_mg_per100g": 2.7,
+    "zinc_mg_per100g": 1.6,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Edamame",
+      "en": "Edamame",
+      "pt": "Edamame"
+    },
+    "porcion": {
+      "es": "1 taza",
+      "en": "1 cup",
+      "pt": "1 xícara"
+    },
+    "nova_group": null,
+    "default_serving_grams": 155.0,
+    "kcal_per100g": 121.0,
+    "protein_per100g": 11.9,
+    "carbs_per100g": 8.9,
+    "fat_per100g": 5.2,
+    "fiber_per100g": 5.2,
+    "sugar_per100g": 2.2,
+    "sodium_mg_per100g": 6.0,
+    "potassium_mg_per100g": 436.0,
+    "magnesium_mg_per100g": 64.0,
+    "calcium_mg_per100g": 63.0,
+    "iron_mg_per100g": 2.3,
+    "zinc_mg_per100g": 1.4,
+    "vitamin_c_mg_per100g": 6.1,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Mantequilla de maní",
+      "en": "Peanut butter",
+      "pt": "Pasta de amendoim"
+    },
+    "porcion": {
+      "es": "2 cucharadas",
+      "en": "2 tablespoons",
+      "pt": "2 colheres de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 32.0,
+    "kcal_per100g": 588.0,
+    "protein_per100g": 25.0,
+    "carbs_per100g": 20.0,
+    "fat_per100g": 50.0,
+    "fiber_per100g": 6.0,
+    "sugar_per100g": 9.2,
+    "sodium_mg_per100g": 459.0,
+    "potassium_mg_per100g": 649.0,
+    "magnesium_mg_per100g": 154.0,
+    "calcium_mg_per100g": 43.0,
+    "iron_mg_per100g": 1.7,
+    "zinc_mg_per100g": 2.8,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Maní tostado sin sal",
+      "en": "Unsalted roasted peanuts",
+      "pt": "Amendoim torrado sem sal"
+    },
+    "porcion": {
+      "es": "1 puñado",
+      "en": "1 handful",
+      "pt": "1 punhado"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 585.0,
+    "protein_per100g": 23.7,
+    "carbs_per100g": 21.5,
+    "fat_per100g": 49.7,
+    "fiber_per100g": 8.0,
+    "sugar_per100g": 4.2,
+    "sodium_mg_per100g": 6.0,
+    "potassium_mg_per100g": 658.0,
+    "magnesium_mg_per100g": 176.0,
+    "calcium_mg_per100g": 54.0,
+    "iron_mg_per100g": 2.3,
+    "zinc_mg_per100g": 3.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Nueces",
+      "en": "Walnuts",
+      "pt": "Nozes"
+    },
+    "porcion": {
+      "es": "1 puñado",
+      "en": "1 handful",
+      "pt": "1 punhado"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 654.0,
+    "protein_per100g": 15.2,
+    "carbs_per100g": 13.7,
+    "fat_per100g": 65.2,
+    "fiber_per100g": 6.7,
+    "sugar_per100g": 2.6,
+    "sodium_mg_per100g": 2.0,
+    "potassium_mg_per100g": 441.0,
+    "magnesium_mg_per100g": 158.0,
+    "calcium_mg_per100g": 98.0,
+    "iron_mg_per100g": 2.9,
+    "zinc_mg_per100g": 3.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Marañones / anacardos",
+      "en": "Cashews",
+      "pt": "Castanha-de-caju"
+    },
+    "porcion": {
+      "es": "1 puñado",
+      "en": "1 handful",
+      "pt": "1 punhado"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 553.0,
+    "protein_per100g": 18.2,
+    "carbs_per100g": 30.2,
+    "fat_per100g": 43.9,
+    "fiber_per100g": 3.3,
+    "sugar_per100g": 5.9,
+    "sodium_mg_per100g": 12.0,
+    "potassium_mg_per100g": 660.0,
+    "magnesium_mg_per100g": 292.0,
+    "calcium_mg_per100g": 37.0,
+    "iron_mg_per100g": 6.7,
+    "zinc_mg_per100g": 5.8,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pistachos",
+      "en": "Pistachios",
+      "pt": "Pistaches"
+    },
+    "porcion": {
+      "es": "1 puñado",
+      "en": "1 handful",
+      "pt": "1 punhado"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 560.0,
+    "protein_per100g": 20.2,
+    "carbs_per100g": 27.2,
+    "fat_per100g": 45.3,
+    "fiber_per100g": 10.6,
+    "sugar_per100g": 7.7,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 1025.0,
+    "magnesium_mg_per100g": 121.0,
+    "calcium_mg_per100g": 105.0,
+    "iron_mg_per100g": 3.9,
+    "zinc_mg_per100g": 2.2,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Semillas de chía",
+      "en": "Chia seeds",
+      "pt": "Sementes de chia"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 12.0,
+    "kcal_per100g": 486.0,
+    "protein_per100g": 16.5,
+    "carbs_per100g": 42.1,
+    "fat_per100g": 30.7,
+    "fiber_per100g": 34.4,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 16.0,
+    "potassium_mg_per100g": 407.0,
+    "magnesium_mg_per100g": 335.0,
+    "calcium_mg_per100g": 631.0,
+    "iron_mg_per100g": 7.7,
+    "zinc_mg_per100g": 4.6,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Linaza molida",
+      "en": "Ground flaxseed",
+      "pt": "Linhaça moída"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 10.0,
+    "kcal_per100g": 534.0,
+    "protein_per100g": 18.3,
+    "carbs_per100g": 28.9,
+    "fat_per100g": 42.2,
+    "fiber_per100g": 27.3,
+    "sugar_per100g": 1.6,
+    "sodium_mg_per100g": 30.0,
+    "potassium_mg_per100g": 813.0,
+    "magnesium_mg_per100g": 392.0,
+    "calcium_mg_per100g": 255.0,
+    "iron_mg_per100g": 5.7,
+    "zinc_mg_per100g": 4.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Semillas de girasol",
+      "en": "Sunflower seeds",
+      "pt": "Sementes de girassol"
+    },
+    "porcion": {
+      "es": "1 puñado",
+      "en": "1 handful",
+      "pt": "1 punhado"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 584.0,
+    "protein_per100g": 20.8,
+    "carbs_per100g": 20.0,
+    "fat_per100g": 51.5,
+    "fiber_per100g": 8.6,
+    "sugar_per100g": 2.6,
+    "sodium_mg_per100g": 9.0,
+    "potassium_mg_per100g": 645.0,
+    "magnesium_mg_per100g": 325.0,
+    "calcium_mg_per100g": 78.0,
+    "iron_mg_per100g": 5.3,
+    "zinc_mg_per100g": 5.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Semillas de calabaza",
+      "en": "Pumpkin seeds",
+      "pt": "Sementes de abóbora"
+    },
+    "porcion": {
+      "es": "1 puñado",
+      "en": "1 handful",
+      "pt": "1 punhado"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 559.0,
+    "protein_per100g": 30.2,
+    "carbs_per100g": 10.7,
+    "fat_per100g": 49.0,
+    "fiber_per100g": 6.0,
+    "sugar_per100g": 1.4,
+    "sodium_mg_per100g": 7.0,
+    "potassium_mg_per100g": 809.0,
+    "magnesium_mg_per100g": 592.0,
+    "calcium_mg_per100g": 46.0,
+    "iron_mg_per100g": 8.8,
+    "zinc_mg_per100g": 7.8,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Jugo de naranja natural",
+      "en": "Fresh orange juice",
+      "pt": "Suco de laranja natural"
+    },
+    "porcion": {
+      "es": "1 vaso (240 ml)",
+      "en": "1 glass (240 ml)",
+      "pt": "1 copo (240 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 248.0,
+    "kcal_per100g": 45.0,
+    "protein_per100g": 0.7,
+    "carbs_per100g": 10.4,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 0.2,
+    "sugar_per100g": 8.4,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 200.0,
+    "magnesium_mg_per100g": 11.0,
+    "calcium_mg_per100g": 11.0,
+    "iron_mg_per100g": 0.2,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 50.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Agua de coco",
+      "en": "Coconut water",
+      "pt": "Água de coco"
+    },
+    "porcion": {
+      "es": "1 vaso (240 ml)",
+      "en": "1 glass (240 ml)",
+      "pt": "1 copo (240 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 240.0,
+    "kcal_per100g": 19.0,
+    "protein_per100g": 0.7,
+    "carbs_per100g": 3.7,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 1.1,
+    "sugar_per100g": 2.6,
+    "sodium_mg_per100g": 105.0,
+    "potassium_mg_per100g": 250.0,
+    "magnesium_mg_per100g": 25.0,
+    "calcium_mg_per100g": 24.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 2.4,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Café con leche",
+      "en": "Coffee with milk",
+      "pt": "Café com leite"
+    },
+    "porcion": {
+      "es": "1 taza (240 ml)",
+      "en": "1 cup (240 ml)",
+      "pt": "1 xícara (240 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 240.0,
+    "kcal_per100g": 47.0,
+    "protein_per100g": 2.6,
+    "carbs_per100g": 4.3,
+    "fat_per100g": 1.9,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 4.0,
+    "sodium_mg_per100g": 40.0,
+    "potassium_mg_per100g": 140.0,
+    "magnesium_mg_per100g": 10.0,
+    "calcium_mg_per100g": 90.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 0.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.9,
+    "vitamin_b12_ug_per100g": 0.3,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Té verde sin azúcar",
+      "en": "Green tea, unsweetened",
+      "pt": "Chá verde sem açúcar"
+    },
+    "porcion": {
+      "es": "1 taza (240 ml)",
+      "en": "1 cup (240 ml)",
+      "pt": "1 xícara (240 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 240.0,
+    "kcal_per100g": 1.0,
+    "protein_per100g": 0.2,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 0.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 8.0,
+    "magnesium_mg_per100g": 1.0,
+    "calcium_mg_per100g": 0.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Bebida deportiva",
+      "en": "Sports drink",
+      "pt": "Bebida esportiva"
+    },
+    "porcion": {
+      "es": "1 botella (500 ml)",
+      "en": "1 bottle (500 ml)",
+      "pt": "1 garrafa (500 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 500.0,
+    "kcal_per100g": 26.0,
+    "protein_per100g": 0.0,
+    "carbs_per100g": 6.4,
+    "fat_per100g": 0.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 5.6,
+    "sodium_mg_per100g": 41.0,
+    "potassium_mg_per100g": 12.0,
+    "magnesium_mg_per100g": 0.0,
+    "calcium_mg_per100g": 0.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Gaseosa de cola",
+      "en": "Cola soda",
+      "pt": "Refrigerante de cola"
+    },
+    "porcion": {
+      "es": "1 lata (355 ml)",
+      "en": "1 can (355 ml)",
+      "pt": "1 lata (355 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 368.0,
+    "kcal_per100g": 42.0,
+    "protein_per100g": 0.0,
+    "carbs_per100g": 10.6,
+    "fat_per100g": 0.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 10.6,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 2.0,
+    "magnesium_mg_per100g": 0.0,
+    "calcium_mg_per100g": 2.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Gaseosa de cola sin azúcar",
+      "en": "Diet cola soda",
+      "pt": "Refrigerante de cola sem açúcar"
+    },
+    "porcion": {
+      "es": "1 lata (355 ml)",
+      "en": "1 can (355 ml)",
+      "pt": "1 lata (355 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 355.0,
+    "kcal_per100g": 1.0,
+    "protein_per100g": 0.1,
+    "carbs_per100g": 0.1,
+    "fat_per100g": 0.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 8.0,
+    "magnesium_mg_per100g": 1.0,
+    "calcium_mg_per100g": 2.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Cerveza",
+      "en": "Beer",
+      "pt": "Cerveja"
+    },
+    "porcion": {
+      "es": "1 lata (330 ml)",
+      "en": "1 can (330 ml)",
+      "pt": "1 lata (330 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 330.0,
+    "kcal_per100g": 43.0,
+    "protein_per100g": 0.5,
+    "carbs_per100g": 3.6,
+    "fat_per100g": 0.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 27.0,
+    "magnesium_mg_per100g": 6.0,
+    "calcium_mg_per100g": 4.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Vino tinto",
+      "en": "Red wine",
+      "pt": "Vinho tinto"
+    },
+    "porcion": {
+      "es": "1 copa (150 ml)",
+      "en": "1 glass (150 ml)",
+      "pt": "1 taça (150 ml)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 150.0,
+    "kcal_per100g": 85.0,
+    "protein_per100g": 0.1,
+    "carbs_per100g": 2.6,
+    "fat_per100g": 0.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.6,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 127.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 8.0,
+    "iron_mg_per100g": 0.5,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Aceite vegetal (girasol, canola)",
+      "en": "Vegetable oil (sunflower, canola)",
+      "pt": "Óleo vegetal (girassol, canola)"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 14.0,
+    "kcal_per100g": 884.0,
+    "protein_per100g": 0.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 100.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 0.0,
+    "potassium_mg_per100g": 0.0,
+    "magnesium_mg_per100g": 0.0,
+    "calcium_mg_per100g": 0.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Aceite de coco",
+      "en": "Coconut oil",
+      "pt": "Óleo de coco"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 14.0,
+    "kcal_per100g": 862.0,
+    "protein_per100g": 0.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 99.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 0.0,
+    "potassium_mg_per100g": 0.0,
+    "magnesium_mg_per100g": 0.0,
+    "calcium_mg_per100g": 1.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Mayonesa",
+      "en": "Mayonnaise",
+      "pt": "Maionese"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 14.0,
+    "kcal_per100g": 680.0,
+    "protein_per100g": 1.0,
+    "carbs_per100g": 0.6,
+    "fat_per100g": 75.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.6,
+    "sodium_mg_per100g": 635.0,
+    "potassium_mg_per100g": 20.0,
+    "magnesium_mg_per100g": 1.0,
+    "calcium_mg_per100g": 8.0,
+    "iron_mg_per100g": 0.2,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Salsa de tomate (kétchup)",
+      "en": "Ketchup",
+      "pt": "Ketchup"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 17.0,
+    "kcal_per100g": 101.0,
+    "protein_per100g": 1.0,
+    "carbs_per100g": 27.0,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 0.3,
+    "sugar_per100g": 22.8,
+    "sodium_mg_per100g": 907.0,
+    "potassium_mg_per100g": 281.0,
+    "magnesium_mg_per100g": 13.0,
+    "calcium_mg_per100g": 15.0,
+    "iron_mg_per100g": 0.4,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 4.1,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Salsa de soya",
+      "en": "Soy sauce",
+      "pt": "Molho de soja"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 16.0,
+    "kcal_per100g": 53.0,
+    "protein_per100g": 8.1,
+    "carbs_per100g": 4.9,
+    "fat_per100g": 0.6,
+    "fiber_per100g": 0.8,
+    "sugar_per100g": 0.4,
+    "sodium_mg_per100g": 5493.0,
+    "potassium_mg_per100g": 435.0,
+    "magnesium_mg_per100g": 43.0,
+    "calcium_mg_per100g": 33.0,
+    "iron_mg_per100g": 1.5,
+    "zinc_mg_per100g": 0.4,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Sal de mesa",
+      "en": "Table salt",
+      "pt": "Sal de cozinha"
+    },
+    "porcion": {
+      "es": "1 pizca",
+      "en": "1 pinch",
+      "pt": "1 pitada"
+    },
+    "nova_group": null,
+    "default_serving_grams": 1.0,
+    "kcal_per100g": 0.0,
+    "protein_per100g": 0.0,
+    "carbs_per100g": 0.0,
+    "fat_per100g": 0.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 0.0,
+    "sodium_mg_per100g": 38758.0,
+    "potassium_mg_per100g": 8.0,
+    "magnesium_mg_per100g": 1.0,
+    "calcium_mg_per100g": 24.0,
+    "iron_mg_per100g": 0.3,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Azúcar blanca",
+      "en": "White sugar",
+      "pt": "Açúcar branco"
+    },
+    "porcion": {
+      "es": "1 cucharadita",
+      "en": "1 teaspoon",
+      "pt": "1 colher de chá"
+    },
+    "nova_group": null,
+    "default_serving_grams": 4.0,
+    "kcal_per100g": 387.0,
+    "protein_per100g": 0.0,
+    "carbs_per100g": 100.0,
+    "fat_per100g": 0.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 100.0,
+    "sodium_mg_per100g": 1.0,
+    "potassium_mg_per100g": 2.0,
+    "magnesium_mg_per100g": 0.0,
+    "calcium_mg_per100g": 1.0,
+    "iron_mg_per100g": 0.0,
+    "zinc_mg_per100g": 0.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Panela",
+      "en": "Panela (unrefined cane sugar)",
+      "pt": "Rapadura"
+    },
+    "porcion": {
+      "es": "1 trozo",
+      "en": "1 piece",
+      "pt": "1 pedaço"
+    },
+    "nova_group": null,
+    "default_serving_grams": 20.0,
+    "kcal_per100g": 375.0,
+    "protein_per100g": 0.4,
+    "carbs_per100g": 95.0,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 90.0,
+    "sodium_mg_per100g": 30.0,
+    "potassium_mg_per100g": 300.0,
+    "magnesium_mg_per100g": 70.0,
+    "calcium_mg_per100g": 85.0,
+    "iron_mg_per100g": 2.0,
+    "zinc_mg_per100g": 0.5,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Miel de abejas",
+      "en": "Honey",
+      "pt": "Mel"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 21.0,
+    "kcal_per100g": 304.0,
+    "protein_per100g": 0.3,
+    "carbs_per100g": 82.4,
+    "fat_per100g": 0.0,
+    "fiber_per100g": 0.2,
+    "sugar_per100g": 82.1,
+    "sodium_mg_per100g": 4.0,
+    "potassium_mg_per100g": 52.0,
+    "magnesium_mg_per100g": 2.0,
+    "calcium_mg_per100g": 6.0,
+    "iron_mg_per100g": 0.4,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 0.5,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Mermelada",
+      "en": "Jam",
+      "pt": "Geleia"
+    },
+    "porcion": {
+      "es": "1 cucharada",
+      "en": "1 tablespoon",
+      "pt": "1 colher de sopa"
+    },
+    "nova_group": null,
+    "default_serving_grams": 20.0,
+    "kcal_per100g": 278.0,
+    "protein_per100g": 0.4,
+    "carbs_per100g": 68.9,
+    "fat_per100g": 0.1,
+    "fiber_per100g": 1.1,
+    "sugar_per100g": 48.5,
+    "sodium_mg_per100g": 32.0,
+    "potassium_mg_per100g": 77.0,
+    "magnesium_mg_per100g": 4.0,
+    "calcium_mg_per100g": 20.0,
+    "iron_mg_per100g": 0.5,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 8.8,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Chocolate oscuro 70 %",
+      "en": "Dark chocolate 70 %",
+      "pt": "Chocolate amargo 70 %"
+    },
+    "porcion": {
+      "es": "2 cuadros",
+      "en": "2 squares",
+      "pt": "2 quadradinhos"
+    },
+    "nova_group": null,
+    "default_serving_grams": 20.0,
+    "kcal_per100g": 598.0,
+    "protein_per100g": 7.8,
+    "carbs_per100g": 45.9,
+    "fat_per100g": 42.6,
+    "fiber_per100g": 10.9,
+    "sugar_per100g": 24.0,
+    "sodium_mg_per100g": 20.0,
+    "potassium_mg_per100g": 715.0,
+    "magnesium_mg_per100g": 228.0,
+    "calcium_mg_per100g": 73.0,
+    "iron_mg_per100g": 11.9,
+    "zinc_mg_per100g": 3.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Chocolate con leche",
+      "en": "Milk chocolate",
+      "pt": "Chocolate ao leite"
+    },
+    "porcion": {
+      "es": "1 barra",
+      "en": "1 bar",
+      "pt": "1 barra"
+    },
+    "nova_group": null,
+    "default_serving_grams": 40.0,
+    "kcal_per100g": 535.0,
+    "protein_per100g": 7.7,
+    "carbs_per100g": 59.4,
+    "fat_per100g": 29.7,
+    "fiber_per100g": 3.4,
+    "sugar_per100g": 51.5,
+    "sodium_mg_per100g": 79.0,
+    "potassium_mg_per100g": 372.0,
+    "magnesium_mg_per100g": 63.0,
+    "calcium_mg_per100g": 189.0,
+    "iron_mg_per100g": 2.4,
+    "zinc_mg_per100g": 2.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Helado de vainilla",
+      "en": "Vanilla ice cream",
+      "pt": "Sorvete de baunilha"
+    },
+    "porcion": {
+      "es": "1 bola",
+      "en": "1 scoop",
+      "pt": "1 bola"
+    },
+    "nova_group": null,
+    "default_serving_grams": 66.0,
+    "kcal_per100g": 207.0,
+    "protein_per100g": 3.5,
+    "carbs_per100g": 23.6,
+    "fat_per100g": 11.0,
+    "fiber_per100g": 0.7,
+    "sugar_per100g": 21.2,
+    "sodium_mg_per100g": 80.0,
+    "potassium_mg_per100g": 199.0,
+    "magnesium_mg_per100g": 11.0,
+    "calcium_mg_per100g": 128.0,
+    "iron_mg_per100g": 0.1,
+    "zinc_mg_per100g": 0.7,
+    "vitamin_c_mg_per100g": 0.6,
+    "vitamin_d_ug_per100g": 0.2,
+    "vitamin_b12_ug_per100g": 0.4,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Huevos pericos (con tomate y cebolla)",
+      "en": "Scrambled eggs with tomato and onion",
+      "pt": "Ovos mexidos com tomate e cebola"
+    },
+    "porcion": {
+      "es": "1 porción",
+      "en": "1 serving",
+      "pt": "1 porção"
+    },
+    "nova_group": null,
+    "default_serving_grams": 150.0,
+    "kcal_per100g": 135.0,
+    "protein_per100g": 9.0,
+    "carbs_per100g": 3.0,
+    "fat_per100g": 9.5,
+    "fiber_per100g": 0.6,
+    "sugar_per100g": 1.8,
+    "sodium_mg_per100g": 180.0,
+    "potassium_mg_per100g": 180.0,
+    "magnesium_mg_per100g": 11.0,
+    "calcium_mg_per100g": 50.0,
+    "iron_mg_per100g": 1.3,
+    "zinc_mg_per100g": 1.0,
+    "vitamin_c_mg_per100g": 5.0,
+    "vitamin_d_ug_per100g": 1.5,
+    "vitamin_b12_ug_per100g": 0.8,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Arroz con pollo",
+      "en": "Chicken and rice",
+      "pt": "Arroz com frango"
+    },
+    "porcion": {
+      "es": "1 plato",
+      "en": "1 plate",
+      "pt": "1 prato"
+    },
+    "nova_group": null,
+    "default_serving_grams": 250.0,
+    "kcal_per100g": 155.0,
+    "protein_per100g": 9.0,
+    "carbs_per100g": 19.0,
+    "fat_per100g": 4.5,
+    "fiber_per100g": 0.8,
+    "sugar_per100g": 0.8,
+    "sodium_mg_per100g": 380.0,
+    "potassium_mg_per100g": 150.0,
+    "magnesium_mg_per100g": 18.0,
+    "calcium_mg_per100g": 15.0,
+    "iron_mg_per100g": 0.9,
+    "zinc_mg_per100g": 0.9,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Sopa de verduras",
+      "en": "Vegetable soup",
+      "pt": "Sopa de legumes"
+    },
+    "porcion": {
+      "es": "1 plato",
+      "en": "1 plate",
+      "pt": "1 prato"
+    },
+    "nova_group": null,
+    "default_serving_grams": 250.0,
+    "kcal_per100g": 28.0,
+    "protein_per100g": 1.2,
+    "carbs_per100g": 4.6,
+    "fat_per100g": 0.6,
+    "fiber_per100g": 1.0,
+    "sugar_per100g": 1.5,
+    "sodium_mg_per100g": 280.0,
+    "potassium_mg_per100g": 160.0,
+    "magnesium_mg_per100g": 8.0,
+    "calcium_mg_per100g": 15.0,
+    "iron_mg_per100g": 0.4,
+    "zinc_mg_per100g": 0.1,
+    "vitamin_c_mg_per100g": 2.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Ensalada mixta sin aderezo",
+      "en": "Mixed salad, no dressing",
+      "pt": "Salada mista sem molho"
+    },
+    "porcion": {
+      "es": "1 plato",
+      "en": "1 plate",
+      "pt": "1 prato"
+    },
+    "nova_group": null,
+    "default_serving_grams": 150.0,
+    "kcal_per100g": 17.0,
+    "protein_per100g": 1.2,
+    "carbs_per100g": 3.5,
+    "fat_per100g": 0.2,
+    "fiber_per100g": 1.6,
+    "sugar_per100g": 2.0,
+    "sodium_mg_per100g": 20.0,
+    "potassium_mg_per100g": 220.0,
+    "magnesium_mg_per100g": 12.0,
+    "calcium_mg_per100g": 25.0,
+    "iron_mg_per100g": 0.6,
+    "zinc_mg_per100g": 0.2,
+    "vitamin_c_mg_per100g": 15.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Empanada de carne frita",
+      "en": "Fried beef empanada",
+      "pt": "Empanada de carne frita"
+    },
+    "porcion": {
+      "es": "1 unidad",
+      "en": "1 unit",
+      "pt": "1 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 90.0,
+    "kcal_per100g": 320.0,
+    "protein_per100g": 10.0,
+    "carbs_per100g": 30.0,
+    "fat_per100g": 18.0,
+    "fiber_per100g": 2.0,
+    "sugar_per100g": 1.5,
+    "sodium_mg_per100g": 450.0,
+    "potassium_mg_per100g": 180.0,
+    "magnesium_mg_per100g": 20.0,
+    "calcium_mg_per100g": 30.0,
+    "iron_mg_per100g": 1.8,
+    "zinc_mg_per100g": 1.5,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Pizza de queso",
+      "en": "Cheese pizza",
+      "pt": "Pizza de queijo"
+    },
+    "porcion": {
+      "es": "1 porción",
+      "en": "1 serving",
+      "pt": "1 porção"
+    },
+    "nova_group": null,
+    "default_serving_grams": 107.0,
+    "kcal_per100g": 266.0,
+    "protein_per100g": 11.4,
+    "carbs_per100g": 33.3,
+    "fat_per100g": 9.7,
+    "fiber_per100g": 2.3,
+    "sugar_per100g": 3.6,
+    "sodium_mg_per100g": 598.0,
+    "potassium_mg_per100g": 172.0,
+    "magnesium_mg_per100g": 24.0,
+    "calcium_mg_per100g": 188.0,
+    "iron_mg_per100g": 2.4,
+    "zinc_mg_per100g": 1.3,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Hamburguesa sencilla",
+      "en": "Plain hamburger",
+      "pt": "Hambúrguer simples"
+    },
+    "porcion": {
+      "es": "1 unidad",
+      "en": "1 unit",
+      "pt": "1 unidade"
+    },
+    "nova_group": null,
+    "default_serving_grams": 110.0,
+    "kcal_per100g": 254.0,
+    "protein_per100g": 12.9,
+    "carbs_per100g": 28.7,
+    "fat_per100g": 9.6,
+    "fiber_per100g": 1.5,
+    "sugar_per100g": 6.0,
+    "sodium_mg_per100g": 488.0,
+    "potassium_mg_per100g": 216.0,
+    "magnesium_mg_per100g": 22.0,
+    "calcium_mg_per100g": 103.0,
+    "iron_mg_per100g": 2.5,
+    "zinc_mg_per100g": 2.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Rollo de sushi de salmón",
+      "en": "Salmon sushi roll",
+      "pt": "Rolinho de sushi de salmão"
+    },
+    "porcion": {
+      "es": "8 piezas",
+      "en": "8 pieces",
+      "pt": "8 peças"
+    },
+    "nova_group": null,
+    "default_serving_grams": 200.0,
+    "kcal_per100g": 146.0,
+    "protein_per100g": 5.8,
+    "carbs_per100g": 28.0,
+    "fat_per100g": 2.0,
+    "fiber_per100g": 0.8,
+    "sugar_per100g": 4.0,
+    "sodium_mg_per100g": 350.0,
+    "potassium_mg_per100g": 120.0,
+    "magnesium_mg_per100g": 14.0,
+    "calcium_mg_per100g": 10.0,
+    "iron_mg_per100g": 0.4,
+    "zinc_mg_per100g": 0.5,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Proteína whey en polvo",
+      "en": "Whey protein powder",
+      "pt": "Whey protein em pó"
+    },
+    "porcion": {
+      "es": "1 medida (30 g)",
+      "en": "1 scoop (30 g)",
+      "pt": "1 medida (30 g)"
+    },
+    "nova_group": null,
+    "default_serving_grams": 30.0,
+    "kcal_per100g": 380.0,
+    "protein_per100g": 78.0,
+    "carbs_per100g": 8.0,
+    "fat_per100g": 5.0,
+    "fiber_per100g": 0.0,
+    "sugar_per100g": 5.0,
+    "sodium_mg_per100g": 300.0,
+    "potassium_mg_per100g": 500.0,
+    "magnesium_mg_per100g": 100.0,
+    "calcium_mg_per100g": 400.0,
+    "iron_mg_per100g": 1.0,
+    "zinc_mg_per100g": 2.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  },
+  {
+    "nombre": {
+      "es": "Barra de proteína",
+      "en": "Protein bar",
+      "pt": "Barra de proteína"
+    },
+    "porcion": {
+      "es": "1 barra",
+      "en": "1 bar",
+      "pt": "1 barra"
+    },
+    "nova_group": null,
+    "default_serving_grams": 60.0,
+    "kcal_per100g": 350.0,
+    "protein_per100g": 30.0,
+    "carbs_per100g": 40.0,
+    "fat_per100g": 11.0,
+    "fiber_per100g": 8.0,
+    "sugar_per100g": 5.0,
+    "sodium_mg_per100g": 300.0,
+    "potassium_mg_per100g": 250.0,
+    "magnesium_mg_per100g": 60.0,
+    "calcium_mg_per100g": 200.0,
+    "iron_mg_per100g": 3.0,
+    "zinc_mg_per100g": 2.0,
+    "vitamin_c_mg_per100g": 0.0,
+    "vitamin_d_ug_per100g": 0.0,
+    "vitamin_b12_ug_per100g": 0.0,
+    "is_favorite": false
+  }
+]

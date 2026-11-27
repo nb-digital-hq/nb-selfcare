@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "NB SelfCare"
+abstract: >-
+  Local-first desktop application for everyday self-care: food, body measurements, habits, treatments, fasting
+  and guided breaks, with weekly review, trends and a correctable history, synced over the local network with
+  NB SelfCare Mobile, with no account and no telemetry.
+type: software
+authors:
+  - name: "NB Digital"
+  - name: "The NB SelfCare Authors"
+version: "1.0.0"
+license: Apache-2.0
+repository-code: "https://github.com/nb-digital-hq/nb-selfcare"
+keywords:
+  - local-first
+  - self-care
+  - health
+  - nutrition
+  - habits
+  - privacy
+  - tauri
+  - rust
+  - svelte
+date-released: 2026-11-27

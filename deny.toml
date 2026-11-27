@@ -1,0 +1,51 @@
+# Política de licencias y seguridad de las dependencias de Rust (ADR-010).
+# NB SelfCare es Apache-2.0: solo admite licencias permisivas y la MPL-2.0, cuyo
+# copyleft es por archivo y no alcanza al código de NB SelfCare. La misma lista que
+# scripts/generate-notices.mjs.
+
+[advisories]
+version = 2
+yanked = "deny"
+# chrono sigue en el dominio heredado; el aviso es de mantenimiento, no una
+# vulnerabilidad. Sustituir la biblioteca temporal requiere una migración
+# específica y aprobación de la dependencia de reemplazo. No se ignoran CVE de SQLite.
+ignore = [
+  "RUSTSEC-2026-0543", # chrono: migración temporal independiente.
+  # Excepciones de mantenimiento aprobadas; no permiten vulnerabilidades.
+  # Alcance y ruta del árbol: docs/audit/maintenance-exceptions.md.
+  "RUSTSEC-2024-0370", # proc-macro-error: macros de GTK 3 de Tauri 2.
+  "RUSTSEC-2026-0371", # zbus_names: integrado en zbus 6, consumidores estables aún en 5.
+  "RUSTSEC-2026-0370", # zvariant: mismo árbol D-Bus estable.
+  "RUSTSEC-2026-0372", # zvariant_derive: macros del mismo árbol.
+]
+
+[licenses]
+version = 2
+confidence-threshold = 0.9
+allow = [
+  "Apache-2.0",
+  "Apache-2.0 WITH LLVM-exception",
+  "MIT",
+  "MIT-0",
+  "BSD-2-Clause",
+  "BSD-3-Clause",
+  "ISC",
+  "Zlib",
+  "Unicode-3.0",
+  "CC0-1.0",
+  "Unlicense",
+  "BSL-1.0",
+  "MPL-2.0",
+  "0BSD",
+  "CDLA-Permissive-2.0",
+  "OFL-1.1",
+]
+
+[bans]
+multiple-versions = "warn"
+wildcards = "deny"
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"
+allow-registry = ["https://github.com/rust-lang/crates.io-index"]
